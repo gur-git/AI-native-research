@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: "AI-native research methodology — a public inquiry"
+message: "If you reference this repository, please cite it using the metadata below."
+type: software
+authors:
+  - given-names: "Gur"
+    family-names: "(maintainer)"
+    email: masuryg@post.bgu.ac.il
+repository-code: "https://github.com/gur-git/AI-Native-research"
+abstract: >-
+  A public, evolving inquiry into AI-native research methodology — the practice
+  of doing research with AI as a first-class collaborator. The repository
+  contains a foundation (a diagnosis of what about AI forces research workflows
+  to change), a methodology that grows from evidence over time, an evidence
+  base, and a chronicle of the inquiry.
+keywords:
+  - AI-native research
+  - research methodology
+  - AI collaboration
+  - scientific workflow
+license: MIT
+date-released: 2026-05-05
