@@ -99,6 +99,51 @@ Contributed:
 
 ---
 
+## Innovation literature (foundation/04-innovation.md anchors)
+
+The four lines of work that converge on innovation as joint variation + selection. Read at the abstract-and-overview level for the first draft of `04-innovation.md`; deeper reading expected as the inquiry continues.
+
+### Campbell (1960) — Blind Variation and Selective Retention
+
+- [Simonton (2022) update of BVSR theory](https://www.tandfonline.com/doi/full/10.1080/10400419.2022.2059919)
+- [Campbell's original paper on PhilPapers](https://philpapers.org/rec/CAMBVA-2)
+
+Contributed:
+
+- The structural claim that creative thought operates through blind variation followed by retrospective selection. "Blind" is a technical term: the variation's utility is unknown at the time of generation, not random. Foundational for the framing that innovation is qualitatively different from goal-directed recombination.
+- The Simonton (2011, 2022) updates introducing the rational/irrational/blind variation typology, with only blind variations logically associated with knowledge production. Refines what "blind" means and clarifies why goal-directed search cannot produce innovation.
+
+### March (1991) — Exploration vs Exploitation
+
+- [March, J. G. (1991). Exploration and Exploitation in Organizational Learning. Organization Science, 2, 71-87](http://www.iot.ntnu.no/innovation/norsi-pims-courses/Levinthal/March%20(1991).pdf)
+
+Contributed:
+
+- The exploration/exploitation distinction in organizational learning, with the empirical finding that organizations that follow short-term gradients drift toward exploitation and become "effective in the short run but self-destructive in the long run."
+- The warning that AI's cheap exploitation strengthens this gradient — directly relevant to the methodological concern in `04-innovation.md` section 4 about resisting drift.
+
+### Lehman & Stanley (2011) — Novelty Search
+
+- [Abandoning Objectives: Evolution through the Search for Novelty Alone](https://www.cs.swarthmore.edu/~meeden/DevelopmentalRobotics/lehman_ecj11.pdf)
+- *Why Greatness Cannot Be Planned* (Lehman & Stanley, 2015) — the popular treatment
+
+Contributed:
+
+- The empirical finding that pure novelty-seeking search outperforms goal-directed search on certain classes of problems (maze navigation, biped walking). The framing: "as soon as you create an objective, you ruin your ability to reach it." Computational/AI-research analog of Campbell's blindness.
+- The framing of AI's structural bias toward trained distribution as an open research problem (Stanley's Open-Endedness team at OpenAI), not a settled limitation. Anchors the `ambiguous` tag in `01-ai-attributes.md` for capabilities related to genuine novelty.
+
+### Sarasvathy — Effectuation
+
+- [Effectuation 101 — overview](https://effectuation.org/effectuation-101)
+- [Sarasvathy's principles for effectuation (Copenhagen)](https://innovationenglish.sites.ku.dk/model/sarasvathy-effectuation/)
+
+Contributed:
+
+- The means-driven (effectuation) vs goal-driven (causation) distinction in entrepreneurship. The structural claim is the same as Campbell's and Stanley's in different vocabulary: direction emerges from action when the path to a worthwhile end-state is not visible from the starting point.
+- The "act, see what becomes possible, act again" pattern, useful in framing how a researcher should treat AI-generated variants — not as candidates to be evaluated against a fixed goal, but as inputs that may reshape the goal.
+
+---
+
 ## Format note
 
 When adding to this list, write what the source contributed in *terms the foundation can use*. "Interesting paper on AI" is not annotation. "This source documents X failure mode and gives a concrete percentage" is annotation.
