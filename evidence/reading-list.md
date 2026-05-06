@@ -144,6 +144,31 @@ Contributed:
 
 ---
 
+## Empower-not-replace lineage (foundation cluster V anchors)
+
+The mindset shift in `foundation/00-why-reimagine.md` §5 — *empower, not replace* — has both a foundational lineage in computing history and a contemporary empirical anchor on AI specifically.
+
+### Engelbart (1962) — Augmenting Human Intellect
+
+- [Augmenting Human Intellect: A Conceptual Framework (SRI report)](https://www.dougengelbart.org/content/view/138)
+
+Contributed:
+
+- The original framing of computing as augmentation rather than replacement. Engelbart's 1962 SRI report proposed that computers should be designed to *increase the capability of a human to approach a complex problem situation* rather than to do the problem-solving for them. The vocabulary differs from modern AI discussions but the structural argument is the same: the worth of the technology is in what the human becomes capable of, not in what the technology does on its behalf.
+- The historical anchor for cluster V's central claim. The empower-not-replace mindset is not a new invention; it is the framing the field of human-computer interaction was founded on, and one that AI's specific properties (A16: output without reciprocal skill development) make newly load-bearing.
+
+### Anthropic (Feb 2026) — How AI assistance impacts the formation of coding skills
+
+- [How AI assistance impacts the formation of coding skills](https://www.anthropic.com/research/AI-assistance-coding-skills)
+
+Contributed:
+
+- Direct empirical evidence for A16 in the coding domain. The study found that participants using AI assistance scored **17% lower on mastery quizzes** covering concepts they had used minutes before, compared to participants coding by hand. This is the cleanest measurement available of AI substituting for skill development rather than supporting it.
+- The countervailing finding that participants who *did* show strong mastery used AI as a learning aid rather than a substitute — asking follow-up questions, requesting explanations, posing conceptual questions while coding independently. This is exactly the empower-vs-replace distinction G1 is operationalizing, with empirical support that the distinction matters.
+- An anchor for cluster V that goes beyond intuition. A16 is no longer just an extrapolation from the calculator/GPS comparison; there is a controlled study showing the effect on real users.
+
+---
+
 ## Format note
 
 When adding to this list, write what the source contributed in *terms the foundation can use*. "Interesting paper on AI" is not annotation. "This source documents X failure mode and gives a concrete percentage" is annotation.

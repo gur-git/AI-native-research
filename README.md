@@ -1,48 +1,55 @@
 # AI-native research
 
-A public, evolving inquiry into how research should be done when AI is treated as a first-class collaborator.
+A public, evolving inquiry into how research should be done when AI is treated as a first-class collaborator. The repo is a record of an inquiry, not a framework.
 
-The repo is a record of an inquiry, not a framework. The diagnosis — what about AI forces research workflows to change — is settled enough to write down. The methodology is deliberately under construction, and is built up from evidence over time as the maintainer applies it to a real research project.
+The diagnosis — what about AI forces research workflows to change — is settled enough to write down. The methodology is being grown from evidence over time, with explicit status on every guideline. The repo will keep changing as AI changes and as evidence accumulates.
 
-If you are a researcher curious about whether AI is reshaping your work in ways you have not fully reckoned with, this is meant for you to read along with.
+If you are a researcher who has already adopted AI in some form, and you are wondering whether the way you are doing it is the way you should be doing it, this is for you.
+
+## The inquiry's central claim
+
+AI is the first tool in the history of knowledge work that can produce useful output without requiring the user to develop any reciprocal skill. Calculators changed arithmetic into calculator-literacy. Compilers changed assembly programming into higher-language fluency. GPS changed dead-reckoning into route-planning. AI breaks the pattern: a researcher can produce fluent output indefinitely without growing.
+
+This makes the standard reassurance about technology and skills — *the worker is still skilled, just at different things* — fail specifically for AI. The methodology this repo is building responds to that with one principle: **empower, not replace.** AI should be used in ways that grow the researcher, not substitute for them. The full argument is in [`foundation/00-why-reimagine.md`](foundation/00-why-reimagine.md).
 
 ## What's here
 
-- **[foundation/](foundation/)** — the diagnosis. Two documents:
-  - **[Why reimagine research](foundation/00-why-reimagine.md)** — what is happening to knowledge work generally, why research is a particular case, and why this inquiry exists.
-  - **[AI attributes](foundation/01-ai-attributes.md)** — fifteen attributes of current AI systems, in four clusters, each tagged `structural` (likely permanent — design around it), `temporary` (likely solvable — do not over-commit), or `ambiguous`. Each attribute has a short description and a thorough explanation of why the tag is right.
-- **[methodology/](methodology/)** — mostly empty by design. Practices accumulate here only when they have earned it, in `methodology/guidelines.md`, with status (`proposed` / `testing` / `adopted` / `retired`) and links back to the evidence that motivated them.
+- **[foundation/](foundation/)** — the diagnosis. Five documents covering the central argument, the catalog of AI attributes (17 in 5 clusters, each tagged structural / temporary / ambiguous), the deep-dive on innovation as a different operation, the implications gestures, and open questions. Read [`foundation/00-why-reimagine.md`](foundation/00-why-reimagine.md) first.
+- **[methodology/](methodology/)** — the prescription. [`methodology/guidelines.md`](methodology/guidelines.md) currently has 15 initial guidelines, all at status `proposed`, each tied to an attribute, an evidence trail, and an explicit skill implication.
 - **[evidence/](evidence/)** — interviews, structured experiments, working-session observations, and an annotated reading list. The substrate the foundation and methodology rest on.
 - **[log/](log/)** — the chronicle. What happened in the inquiry, when, why something changed.
 - **[case-studies/](case-studies/)** — empty for now. The maintainer's pilot research project will live here once a domain is chosen.
 
 ## Read first
 
-If you have ten minutes, read **[foundation/00-why-reimagine.md](foundation/00-why-reimagine.md)** and skim **[foundation/01-ai-attributes.md](foundation/01-ai-attributes.md)**. Those two documents are the inquiry's current position.
+If you have ten minutes: [`foundation/00-why-reimagine.md`](foundation/00-why-reimagine.md). The full argument in compact form.
 
-If you want the shorter version: AI is not just a faster tool for existing research workflows — it shifts the cost structure in ways that force reorganization. Production (drafting, summarizing, exploring) has become cheap. Judgment, verification, and selection have become the binding constraints. A research methodology that does not promote those operations to first-class is producing more output of less-verified quality.
+If you have thirty minutes: `00`, then skim [`01-ai-attributes.md`](foundation/01-ai-attributes.md) for the detailed attribute catalog, then [`methodology/guidelines.md`](methodology/guidelines.md) for the initial guidelines.
+
+If you want the full picture: read `foundation/` in order (`00` → `04`), then the methodology, then the [reading list](evidence/reading-list.md).
 
 ## What this is not
 
-- Not a framework. The methodology is grown from evidence over time, not asserted upfront.
-- Not a recipe for autonomous research. The reimagining is about the human's workflow, not about AI agents replacing the human.
+- Not a framework. The methodology is grown from evidence over time, not asserted upfront. Guidelines have explicit status and can be retired.
+- Not a way to do research faster while letting AI do more of it. The explicit goal is to use AI in ways that grow the researcher; faster-but-hollowing is the failure mode this repo exists to push against.
+- Not a recipe for autonomous research. The reimagining is about the human's workflow.
 - Not a competitor to system-level efforts (FutureHouse, DeepMind co-scientist, PSI / GPD, Sakana). It operates at a different layer — the practice of an individual or small-group researcher using best-in-class tools well.
-- Not finished. Expect things to be revised, retired, or rewritten. Expect tags on attributes to move as the technology evolves.
+- Not finished. Expect things to be revised, retired, or rewritten. The methodology is permanently under construction.
 
 ## Status
 
-Foundation v0 — written 2026-05-05. The two foundation documents are in place. The methodology is empty by design. Evidence collection beyond the initial reading list has not yet begun. The pilot research domain has not yet been chosen.
+Foundation v1 as of 2026-05-06. The five foundation documents and the initial 15 guidelines are in place. Evidence collection beyond the initial reading list has not yet begun. The pilot research domain has not yet been chosen.
 
 ## How this repo works
 
 Four skills under [`.claude/skills/`](.claude/skills/) maintain the repo as it grows:
 
 - **`add-evidence`** — record a new interview, experiment, observation, or noteworthy reading.
-- **`update-foundation`** — revise a foundation document based on evidence, with a traceability trail.
+- **`update-foundation`** — revise a foundation document based on evidence, with traceability.
 - **`add-guideline`** — promote a practice from "the foundation suggests this" to "the methodology proposes trying this."
 - **`inquiry-status`** — quick read of where the inquiry stands.
 
-The discipline is foundation-first and evidence-driven: every claim in `foundation/` traces to a citation; every guideline in `methodology/` traces to evidence and to one or more attributes. See [CLAUDE.md](CLAUDE.md) for the full operating principles.
+The discipline is foundation-first, evidence-driven, observational tone, and *empower over replace* — every claim and every practice traces to something concrete, and every practice articulates the skill it develops in the researcher. See [CLAUDE.md](CLAUDE.md) for full operating principles.
 
 ## Following along, contributing
 

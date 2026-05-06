@@ -10,13 +10,15 @@ The repo is not a framework. It is a record of an inquiry, in the open.
 
 ## Discipline
 
-Three commitments shape how work in this repo should be done.
+Four commitments shape how work in this repo should be done.
 
 **Foundation-first.** Don't add to the methodology before the foundation supports it. If a guideline doesn't trace to an attribute and a piece of evidence, it doesn't go in.
 
 **Evidence-driven.** Every claim in `foundation/` and `methodology/` should be traceable to something in `evidence/` or to a cited source. Untraceable claims are debt; flag them rather than letting them accumulate.
 
 **Honest tone.** Observational, not promotional. The reader is a working researcher who can sense when something is overclaimed. Note things matter-of-factly. Distinguish what is known from what is suspected from what is speculation.
+
+**Empower over replace.** The methodology's central principle (`foundation/00-why-reimagine.md` §5). Tools and practices proposed in this repo should grow the researcher, not substitute for them. Every guideline must articulate the skill it develops, preserves, or risks substituting; guidelines that cannot are not added. When AI is used to do work in this repo, the same standard applies — the work should leave the maintainer more capable, not less.
 
 ## Structure
 
@@ -59,4 +61,4 @@ When in doubt about tone, the standard is: **the kind of writing a careful resea
 
 ## Status
 
-The repo is in foundation-v0 state as of 2026-05-05. The two foundational documents (`foundation/00-why-reimagine.md`, `foundation/01-ai-attributes.md`) are written. The methodology is empty by design. Evidence collection has not yet begun beyond the initial reading list.
+Foundation v1 as of 2026-05-06. Five foundation documents (`00`–`04`) cover diagnosis, attributes catalog, innovation deep-dive, implications, and open questions. The methodology has 15 initial guidelines, all at status `proposed`, drawn from the foundation. Evidence collection beyond the initial reading list has not yet begun.
