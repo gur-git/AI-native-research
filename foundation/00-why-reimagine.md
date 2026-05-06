@@ -1,109 +1,107 @@
 # Why reimagine research
 
-This document does five things, in order: it lays out how research has historically worked and where its value comes from; it situates AI in the longer history of how technology has changed knowledge work; it explains why AI breaks a pattern that has held reliably for the previous tools; it shows why this forces a particular reimagining of research; and it proposes the mindset shift the rest of the methodology operationalizes.
+## 1. How it used to go
 
-The argument runs through a chain. Each section is meant to be a step that can be checked before the next. Skipping ahead is fine, but the argument is cleaner taken in order.
+A graduate student in 1985 needs a calculation. They sit down with a calculator. They have to know what they want to compute. They have to know what the answer should look like. They have to recognize when the result can't be right — when they entered something wrong, when the answer is off by a factor of ten. And on; the list of things they bring runs long. The calculator does the arithmetic. The student does everything else.
 
----
+A programmer in 2000 writes in C++ instead of assembly. They no longer hand-tune registers. But they have to choose data structures. They have to reason about types. They have to understand the libraries they pull in. The list is just as long. The compiler does the optimization. The programmer does everything else.
 
-## 1. What research has been
+This pattern has held every time a new tool arrived in knowledge work. The tool took over a skill. A new skill took its place — knowing what to ask the tool for, knowing when its answer was wrong, knowing what to do with what it gave you. The skills changed. The user remained skilled.
 
-Research, as a kind of knowledge work, has a structure most professional writing does not. Most knowledge work serves an audience that mostly trusts the producer; research serves an audience whose job it is *not* to trust. A claim in a paper is supposed to survive review, replication, and adversarial examination. The defining operation is the production and verification of claims that did not exist before.
+The pattern held because of a property of those tools we never had to name. **Each one required real skill from the user to do its job at all — skill of whatever kind the tool demanded.** Operating the tool was itself an exercise of skill. So using the tool well *was* the new skill. The output was only as good as the user behind the tool. We never articulated this property because no tool had ever lacked it.
 
-Around that core operation, there is a wide periphery of supporting work — reading, summarizing, analyzing, drafting, plotting, testing, formatting. These are not the research itself; they are what makes the research possible. They take the bulk of a researcher's time. The relationship between core and periphery has been stable for a long time: the periphery is expensive in human hours but routine, the core is small in volume but where the value lives, and the routine work of the periphery is what trains the researcher in the judgment that the core requires.
+## 2. How it goes now
 
-The work has another property worth naming explicitly. A researcher's understanding of a problem deepens with practice. A second project in a domain is faster than the first, and the third faster than the second, not because the work itself is faster but because the researcher has grown. Research therefore has two outputs, not one: the artifact (papers, results, code) and the researcher (a person who can do harder work next time than they could last time). The second output compounds across years and is often more durable than any individual artifact. For early-career researchers in particular, the second output is most of why the first output matters.
+A graduate student in 2026 needs a literature review. They open a chat window. They type: *"Write a literature review on X."*
 
-The cost structure that has shaped how research is done flows from these properties. Production work in the periphery has been the binding constraint — drafts cost time, analyses cost time, lit reviews cost time. Judgment of one's own work has been comparatively cheap, because the person doing the judging was also the person who had just done the work and had context. Workflows, training, careers, and institutions optimized for this. Junior researchers' apprenticeship has largely been about getting faster and more accurate at periphery work, on the well-supported assumption that the core skills come from doing the periphery work attentively over years.
+Three minutes later they have something that reads like a literature review. It cites real papers. It is organized into themes. It is fluent. With minor edits it could be turned in.
 
-## 2. How technology has historically changed knowledge work
+The student barely had to know what they wanted. They put in a sentence; they got back a draft.
 
-When new tools change the cost of some part of a workflow, the workflow reorganizes. This is general; it happens in research, in software, in writing, in any domain that uses tools. What is less general — and what is the relevant pattern for understanding AI — is the *shape* of the reorganization that has historically followed.
+This is the first tool we have ever had that does not need much from the user before it produces something. That asymmetry — sentence in, draft out — is what makes AI useful. The whole point is that you no longer have to bring the kind of competence prior tools required.
 
-The pocket calculator displaced arithmetic. Before pocket calculators were common, doing a regression by hand was a multi-hour exercise; afterward, it was a button press. What replaced the lost skill was not nothing. Calculator-literacy became a real capability — knowing what to ask the calculator, knowing how to spot when the answer was off by an order of magnitude, knowing when to fall back to mental arithmetic for a sanity check. The skill set changed. The user was still skilled, just at different things, and the new skills compounded across a career the way the old ones did.
+It is also what breaks the pattern.
 
-Compilers and high-level languages displaced direct work in machine code and assembly. Programmers used to write loops by hand-managing registers; now they write `for x in xs:`. The skill that compiled-out — register-level optimization — was real and is still real for the few who need it, but for nearly everyone it was traded for higher-level fluency: data structure choice, type system intuition, library knowledge, debugging in higher-level abstractions. Different shape, same pattern: the worker remained skilled.
+## 3. The break in the pattern
 
-GPS displaced dead-reckoning navigation. London cabbies, who used to grow their hippocampi memorizing the city, mostly use turn-by-turn directions now. What appeared in place of the lost skill was route-planning judgment — when to trust the routing, when to detour, how to recover when the GPS is wrong. Different skill, same pattern.
+Every prior tool made a clean trade. It took a skill from the user and required a different one in return. The user kept growing because the tool insisted on it.
 
-The pattern repeats across very different tools — spreadsheets, type systems, version control, search engines, statistical packages — reliably enough that it has become the standard reassurance the field reaches for when discussing any new tool: *technology changes the skill set, but the worker is still skilled, just at different things.* We have been right about it for a long time.
+A real skill set is forming around AI, too — and it is not just prompt craft. It includes the judgment of what to delegate and what to keep, the verification work of telling plausible output from correct output, the recognition of how a particular model fails and where it drifts, the workflow design that keeps the model in the lanes where it works, the taste and domain feel that lets you evaluate what came back. The set is still being mapped; this is illustration, not enumeration. A researcher who develops it gets two things at once: a compensating capacity of the kind prior tools always gave back, *and* materially better results from AI than the unskilled user gets.
 
-The pattern works because of a property of all those tools that we did not need to name. Every prior tool required *informationally substantial* input from its user. The user had to know what they wanted with enough specificity that operating the tool was itself an exercise of skill — and so the skill, once exercised, was the new reciprocal skill the tool produced. Calculator-literacy is the skill of knowing what to compute. Higher-level fluency is the skill of knowing what to express. Route-planning judgment is the skill of knowing what to navigate toward. The tool's quality came from the user's input quality, and so using the tool well *was* the new skill.
+But — and this is the structural break — AI does not *require* any of it. The user can produce serviceable output indefinitely without developing the new skill set at all. The calculator wouldn't compute if you didn't know what to type. The compiler wouldn't optimize if you didn't write the code. AI will give you something usable from one underspecified sentence.
 
-## 3. How AI is different
+This is the structural claim everything else rests on:
 
-AI is the first tool in this pattern that does not work this way.
+> AI is the first tool that can substitute for skill without requiring reciprocal skill development.
 
-A natural-language request to an AI model is informationally thin. *"Write a literature review on X." "Summarize this paper." "Generate a hypothesis."* The user is not specifying very much — and the model produces output that is fluent enough to look complete. The asymmetry between what the user puts in and what comes out is a step-change from any prior tool, and it is, in fact, what makes AI valuable. The whole appeal is that the user does not have to articulate what they want at the level of detail prior tools required.
+The skill is real, available, and rewarding. It is also optional in a way no prior tool's compensating skill was. The output is real whether you develop the skill or not. The growth is not. This is a property of how the technology works, and not coincidentally the source of its value. (There is a further question about whether AI may eventually become capable enough that the skillful user has no edge over the unskilled one. That is not the world this repo addresses.)
 
-That asymmetry breaks the historical pattern. The skill the prior tools produced was the skill of putting in articulate input — of *knowing what to ask for* with enough specificity that operating the tool was itself an act of fluency. AI does not require this. "Prompt and accept" is not a compounding skill in the way calculator-operation was. A user can produce fluent output indefinitely without the input-side practice that built the prior generations of skills.
+The methodological response cannot be to wait for AI to require skill from its users. It will not. The response has to be to reorganize how we work — to build into our workflows the practice that the technology no longer extracts from us by default. That reorganization is what this repo means by *reimagining research*.
 
-This is the structural fact this entire document rests on. **AI is the first tool that can substitute for skill without requiring reciprocal skill development.** Not "a faster way to do the same things," not "a tool with a different skill set," but a way to produce results without becoming the kind of person who could produce them. The output is genuine in the sense that it exists; the growth is genuine in the sense that it does not happen.
+## 4. Why this hits research hardest
 
-This is not a current limitation that will be designed away. It is a property of how the technology works. Improvements to AI have, so far, widened the asymmetry rather than closing it — each generation produces more fluent output from less articulate input, not the other way around. The methodological response is not to wait for AI to require skill from its users; it is to design workflows that develop the user's skill *despite* AI not requiring it.
+Most knowledge work has one job: produce the deliverable. The report ships, the code merges, the deck lands. Whether the worker grew is somebody else's problem.
 
-Three things follow.
+Research has two.
 
-**The temptation to outsource is a trap, not a tradeoff.** With prior tools, outsourcing a task you used to do by hand was a clean trade — old capacity given up, new capacity gained, the new capacity compounded. AI offers the first outsourcing where the trade is asymmetric: the practice that built the old capacity is given up, and nothing that compounds is gained. The standard "use AI for the routine, focus on the hard parts" framing assumes a trade AI does not actually make. The methodology's job is not to balance the trade. It is to preserve the practice the trade would erase.
+There is the artifact — the paper, the dataset, the proof, the code. There is also the researcher — a person who can do harder work next time than they could last time.
 
-**Tasks resist the clean cut the temptation requires.** The natural defense — *let AI do the routine bits, keep me on the hard ones* — assumes the routine and the hard separate cleanly. They do not, in research. The fine-grained interleaving of well-trodden technique and original move is most of what makes a task research rather than execution. Doing partial outsourcing — your part, then reviewing AI's part, then integrating — is more work than either alternative. The gradient pulls toward whole-task outsourcing because partial outsourcing is awkward. The methodology has to address tasks that do not decompose, not tasks that do.
+The second output is not a side effect. For an early-career researcher in particular, it is most of why the first one matters.
 
-**The deliverable is one optimization target; the worker is another.** Most knowledge work has only one output that matters. Research, as §1 noted, has two. AI's offer to the user changes the user, in ways that take longer to feel and that compound across tasks. A workflow that ships strong outputs and quietly hollows out the worker has succeeded on one axis and failed on another, and the second failure is invisible until much later.
+And the second output is built almost entirely by the routine peripheral work that surrounds any research project — reading, analyzing, drafting, testing. The periphery is expensive in human hours. It is also where discriminating judgment forms. **The apprenticeship is not separate from doing the work. The routine work *is* the apprenticeship.**
 
-## 4. Why this forces reimagining research specifically
+Now look back at the graduate student with the literature review.
 
-What is true of knowledge work generally is sharper for research, because of the properties §1 named.
+Twenty years ago, that review would have taken weeks. Weeks of confusion, of misreading, of slowly starting to see why this paper matters and why that one is overcited. The review would have been the deliverable. The capacity to read a field is what they would actually have been building.
 
-**Research's defining operation is the production of claims that did not exist before.** Most knowledge work applies known patterns to new instances; research, at its core, is new patterns. AI's structural bias toward its trained distribution — its tendency to produce fluent recombinations of established work — is most useful for the parts of research that look most like other knowledge work, and least useful for the parts that are research-specific. A workflow that lets AI do "the work" tends to drift toward the parts that are not research.
+In 2026 the review takes three minutes. The deliverable is the same, on the surface. The capacity is not built.
 
-**Production decomposes into recombination and innovation, and they respond to AI differently.** Producing a literature summary, a routine analysis, or a draft of a familiar argument is *recombination* — assembling known elements from a known distribution. AI does this well; the cost-structure shift §3 described applies cleanly here. Producing a new framing, a method that did not exist, a hypothesis nobody has stated is *innovation*. The literature on innovation — Campbell's Blind Variation and Selective Retention, March's exploration vs exploitation, Stanley's novelty search, Sarasvathy's effectuation — converges on a structure for it that the recombination framing cannot capture. Innovation is the joint operation of two things: variation that is *not* directed by the goal, and selection that is retrospective and aggregate. The variation is "blind" in Campbell's technical sense — its utility cannot be known at generation time, which is precisely why it can produce something the searcher would not otherwise find. The selection happens after the fact, on a portfolio of variants of which most fail. Together these amount to what one might call *smart diversification:* diversification that is effective in aggregate even when individual variants are not.
+There is a second reason research is hit hardest. Most knowledge work applies known patterns to new instances. Research is largely about producing new patterns. AI helps cleanly with the recombination work that surrounds research — summary, restatement, search — and helps poorly with the production of new framings, methods, or hypotheses themselves. The parts AI does well are the parts that double as training. The parts AI does poorly are the parts the researcher most needs to grow into. Outsource the first and you lose the practice that would have built capacity for the second. The deeper treatment of why these two operations are different is in [`../evidence/literature-notes/innovation-as-different-operation.md`](../evidence/literature-notes/innovation-as-different-operation.md).
 
-AI's "novelty" is not blind in this sense. AI is biased toward its trained distribution; its variation clusters around modes the model has seen most often. Stanley's framing applies directly: *as soon as you create an objective, you ruin your ability to reach it.* AI is implicitly optimizing for plausible-looking output, which is an objective, which biases generation toward existing modes. So AI is structurally **a parallel exploitation engine more than a parallel exploration engine**. Its cost reduction applies cleanly to recombination and does not apply cleanly to innovation. AI also cannot do the retrospective-selection half — selection requires taste, which AI lacks. So AI is at most a partial-fit collaborator for innovation work: useful as a substrate that maps the known terrain so the human's attention is free for blind variation and for taste, not as the agent of innovation itself. The deeper synthesis of the innovation literature is in [`../evidence/literature-notes/innovation-as-different-operation.md`](../evidence/literature-notes/innovation-as-different-operation.md).
+## 5. The trap, and why the gradient pulls toward it
 
-**Research has the researcher's growing competence as a primary output.** This is the property §1 named. Most knowledge work optimizes for the deliverable; research has two outputs. AI workflows are uniquely positioned to fail at the second output because of §3: outsourcing tasks does not develop the researcher. A methodology that ships fluent papers but leaves the researcher unchanged has failed at half its job, and the failure is exactly the one the historical pattern of skill-shifting tools would not have produced.
+The natural defense is: *"Use AI for the routine, focus on the hard parts."* In research this assumes the routine and the hard separate cleanly. They rarely do. The fine-grained interleaving of well-trodden technique and original move is most of what makes a task research rather than execution. There is no clean cut.
 
-**Research has higher stakes for fluent-but-empty output.** A bad draft of a customer email costs an apology. A bad draft of a research claim, fluent enough to pass internal review, can mislead a field for years. The Sakana AI Scientist evaluation found that the system produced manuscripts "many reviewers might struggle to distinguish" from real work, while also producing 42% experiment failures from coding errors and "hallucinated numerical results." This is what happens when AI is allowed to produce research-shaped output without the verification structures research demands. The cost falls on more than just the producer.
+Even where partial outsourcing is possible — your part, then reviewing AI's part, then integrating — it is more work than either alternative. So the gradient pulls toward whole-task outsourcing because it is the only configuration that is not awkward.
 
-Faster lit scans help. Faster code helps. Faster drafting helps. None of these answer the structural problem. A response to AI in research that is built only on what is true of AI in adjacent domains will produce work that is more, but not better — and researchers who are productive but not progressing.
+Prior tools made a fair trade — old capacity given up, new compounding capacity gained. AI offers the first deal where the trade is not fair. You give up the practice that built the old capacity, and nothing that compounds takes its place. In principle the hours freed could be reinvested in skill-building. In practice the gradient runs the other way: outsourcing is easy, the output looks like progress, you feel productive, and the metrics that would catch the failure operate on timescales of years.
 
-## 5. Why now
+You can ship strong papers and quietly hollow out as a researcher. You will not notice. By the time you need a capacity that did not develop, you will not remember when you stopped building it.
 
-The capability moved fast. Three years ago this conversation was speculative; today it is overdue. The default trajectory the field is on is the dangerous one.
+## 6. Why now
 
-Adoption is happening, with or without deliberate methodology. Researchers are using AI individually, fast, in whatever way feels efficient in the moment. Universities and labs are largely not adapting their structure — they are adopting tools. The default at the institutional level is "let people figure it out." The default at the individual level is the one §3 just described — outsource what looks routine, lose the practice that built the capacity, do not notice until the lost capacity is needed.
+Three years ago this conversation was speculative. Today it is overdue.
 
-The gradient is in the wrong direction. AI makes outsourcing cheaper and easier; outsourcing produces output that looks like progress; the user feels productive; the metrics that would catch the failure (skill drift, taste atrophy, drift toward exploitation work) operate on timescales of years rather than weeks. Inertia is not neutral. Waiting is a vote for the default.
+Adoption is happening with or without methodology. Researchers are using AI individually, fast, in whatever way feels efficient. Most institutional responses so far have been to adopt the tools, not adapt around them. The default at the institutional level is *"let people figure it out."* The default at the individual level is the trap §5 just named.
 
-Bad practices ossify. AI-assisted papers without verification trails, hallucinated citations entering the literature, productivity claims that nobody checked: these are accumulating now. Each one is harder to push back on than it was a month ago. The field is forming its norms in this period, mostly by default.
+Inertia is not neutral. Waiting is a vote for the default.
 
-There is a window in which a researcher who reorganizes their workflow deliberately — who uses AI in ways that grow them, who maintains practice in tasks that do not decompose, who treats verification as a primary operation rather than a finishing step — has a compounding advantage. The same window is one in which the field's defaults are being set. Setting them well requires people who are doing the work well in the open.
+There is a window. A researcher who reorganizes deliberately — who uses AI in ways that grow them rather than substitute for them — has a compounding advantage in that window. The same window is the one in which the field's defaults are being set. Setting them well requires people doing the work well in the open.
 
-## 6. The mindset shift: empower, not replace
+## 7. The response: empower, not replace
 
-The choice is not whether to use AI. That choice has been made. The choice is whether to use AI in ways that empower the researcher or in ways that replace them.
+The methodological response has to actively preserve and develop the skill AI does not require.
 
-**Empower** means: AI is used in service of building the researcher's capacity, not as a substitute for it. Every use is evaluable against the question — *will I be more capable as a result of this, or less?*
+The choice is no longer whether to use AI. That choice has been made. The choice is whether to use it in ways that empower the researcher or in ways that replace them.
 
-**Replace** means: AI is used to produce outputs the researcher could not have produced themselves and now will not learn to produce. The output exists; the capacity to produce it does not develop and may atrophy.
+**Empower** means: AI is used in service of building the researcher's capacity — including their skill at using AI itself, the new skill set §3 named. Every use is evaluable against the question — *will I be more capable as a result of this, or less?*
 
-The two are not always easy to distinguish in the moment. The same AI prompt can be empowering or replacing depending on what the researcher does with the output, what they would have done without it, whether they engage critically with what comes back, whether the practice they are skipping is one they need to keep. The methodology will not provide a clean rule. What it can provide is a framing that makes the question visible at every choice, and a set of practices that bias the answer in the right direction.
+**Replace** means: AI is used to produce outputs the researcher could not have produced themselves and now will not learn to produce. The output exists. The capacity does not develop, and may atrophy.
 
-This framing does not solve the problem. It names the problem so the methodology can address it instead of optimizing for output and hoping the researcher's capacity takes care of itself. The five directions in [`02-implications.md`](02-implications.md) are first attempts at what empowerment looks like in practice. The methodology in [`../methodology/guidelines.md`](../methodology/guidelines.md) accumulates concrete guidelines, each evaluable against the empower/replace question.
+The two are not always easy to distinguish in the moment. The same AI prompt can be either, depending on what the researcher does with the output, what they would have done without it, whether they engage critically with what comes back, and whether the practice they are skipping is one they need to keep. The methodology cannot provide a clean rule. It can provide a framing that makes the question visible at every choice, and a set of practices that bias the answer in the right direction.
 
-Empower-not-replace is not a slogan to repeat. It is a question the researcher asks at every step where AI is used, and a question the methodology has to make easy to ask.
+Empower-not-replace is not a slogan. It is a question the researcher asks at every step where AI is used, and a question the methodology has to make easy to ask.
 
-## 7. What this repo is
+## 8. What this repo is
 
 The aim is not to publish a finished framework. It is to record an inquiry — what was read, what was tried, what worked, what didn't, what was changed and why — in a form another researcher can read along with and borrow from.
 
-The structure: the diagnosis lives in [`foundation/`](.) — this document, [`01-ai-attributes.md`](01-ai-attributes.md) (the catalog), [`02-implications.md`](02-implications.md) (gestures toward methodology), [`03-open-questions.md`](03-open-questions.md) (what is still open). The deeper literature synthesis on innovation that §4 above draws on lives in [`../evidence/literature-notes/innovation-as-different-operation.md`](../evidence/literature-notes/innovation-as-different-operation.md). The methodology lives in [`../methodology/guidelines.md`](../methodology/guidelines.md), grows from evidence, and starts with the initial guidelines drawn from this foundation. The evidence lives in [`../evidence/`](../evidence/). The chronicle of how the inquiry has changed lives in [`../log/`](../log/). Real research projects, when applied, will live in [`../case-studies/`](../case-studies/).
+The diagnosis lives in this directory: this document, [`01-ai-attributes.md`](01-ai-attributes.md) (the catalog of AI's specific properties researchers must reckon with), [`02-implications.md`](02-implications.md) (gestures toward methodology), [`03-open-questions.md`](03-open-questions.md). The methodology lives in [`../methodology/guidelines.md`](../methodology/guidelines.md) and grows from evidence over time. The evidence, including the deeper literature synthesis the §4 argument draws on, is in [`../evidence/`](../evidence/). The chronicle of how the inquiry has changed is in [`../log/`](../log/).
 
-The methodology will never be finished. AI is changing. What works changes with it. A foundation that treats "under construction" as a phase ending in some future v1.0 will be wrong by the time v1.0 ships. The repo's structure is the inquiry. The first imperfect version beats the perfect-but-future version, every time.
+The methodology will never be finished. AI keeps changing; what works changes with it. The first imperfect version is more useful than the perfect-but-future one. The repo will be wrong about things; it will revise; it will retire guidelines. The point is that the revisions are visible.
 
-The repo is not currently accepting external contributions. It is deliberately one researcher's working artifact, in public, while the foundation is being developed and the pilot research domain is being chosen. Reach out through the contact in [`../CONTRIBUTING.md`](../CONTRIBUTING.md) if you have substance to offer — an interview, a structured experiment, a contradiction that bears on the foundation.
-
-The repo will be wrong about things. It will revise. It will retire guidelines. The point is that the revisions are visible.
+The repo is not currently accepting external contributions. It is one researcher's working artifact, in public, while the foundation is being developed and the pilot research domain is being chosen. Reach out through the contact in [`../CONTRIBUTING.md`](../CONTRIBUTING.md) if you have substance to offer — an interview, a structured experiment, a contradiction that bears on the foundation.
 
 ---
 
-*Last revised 2026-05-06. Substantial rewrite to a walk-through structure: how research has worked, how technology has historically changed knowledge work, why AI is structurally different from prior tools, why this forces reimagining research specifically, why now, and the mindset shift the rest of the methodology operationalizes.*
+*Last revised 2026-05-06. Walk-through structure: how it used to go (calculator, compiler), how it goes now (the literature review in three minutes), the break in the pattern, why research is hit hardest (two outputs, plus AI's asymmetric coverage of recombination vs. innovation), the trap and its gradient, urgency, and the empower-not-replace response.*
