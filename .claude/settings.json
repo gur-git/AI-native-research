@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git rev-list:*)",
+      "Bash(git fetch:*)",
+      "Bash(git check-ignore:*)",
+      "Bash(git merge-base:*)",
+      "Bash(tasklist:*)",
+      "Bash(tasklist.exe:*)",
+      "Bash(awk:*)",
+      "Bash(where:*)",
+      "Bash(ping:*)"
+    ]
+  }
+}
