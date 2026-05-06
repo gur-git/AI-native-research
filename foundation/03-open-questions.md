@@ -40,7 +40,7 @@ Wissner-Gross's GPD suggests that AI can replicate published work end-to-end as 
 
 ### Q6: Can AI produce variation that is genuinely blind in Campbell's sense, or is its bias toward the trained distribution a structural ceiling?
 
-The current foundation position (`02-innovation.md`) is that AI's "novelty" is biased toward the trained distribution — fluent recombination, not blindness in BVSR's sense. Stanley's Open-Endedness research at OpenAI is the active line attempting to address this. The answer is not settled.
+The current foundation position (`00-why-reimagine.md` §3 and `01-ai-attributes.md` A1, drawing on the literature note at `../evidence/literature-notes/innovation-as-different-operation.md`) is that AI's "novelty" is biased toward the trained distribution — fluent recombination, not blindness in BVSR's sense. Stanley's Open-Endedness research at OpenAI is the active line attempting to address this. The answer is not settled.
 
 **What would resolve this:** observation across model generations of whether outputs framed as "novel" cluster near training-distribution modes, or genuinely escape them. Likely requires testing with frontier models specifically trained or prompted for open-ended search, not general-purpose chat models. Stanley's published work is the place to track progress.
 

@@ -18,7 +18,7 @@ Do not invoke for typos, formatting, or rewording without substantive change. Us
 
 ## Inputs to gather
 
-1. **Which foundation file** — `00-why-reimagine.md`, `01-ai-attributes.md`, `02-what-this-implies.md`, or `03-open-questions.md`.
+1. **Which foundation file** — `00-why-reimagine.md`, `01-ai-attributes.md`, `02-implications.md`, or `03-open-questions.md`.
 2. **What is changing** — the specific claim, attribute, or section being revised. Quote the current text.
 3. **Why** — which piece(s) of evidence are driving the change. List by path. If the change is driven by external news or a new source, link it and add it to the reading list as a separate step.
 4. **Proposed new text** — draft the replacement before committing the edit.

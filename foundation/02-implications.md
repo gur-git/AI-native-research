@@ -1,6 +1,6 @@
 # Implications for methodology (gesture, not commitment)
 
-The diagnosis in [`00-why-reimagine.md`](00-why-reimagine.md), [`01-ai-attributes.md`](01-ai-attributes.md), and [`02-innovation.md`](02-innovation.md) points toward a research workflow that looks structurally different from current practice. This file gestures at what the difference might be. It is explicitly **not** the methodology. The methodology lives in [`../methodology/guidelines.md`](../methodology/guidelines.md) and is built up from evidence over time.
+The diagnosis in [`00-why-reimagine.md`](00-why-reimagine.md) and [`01-ai-attributes.md`](01-ai-attributes.md) points toward a research workflow that looks structurally different from current practice. This file gestures at what the difference might be. It is explicitly **not** the methodology. The methodology lives in [`../methodology/guidelines.md`](../methodology/guidelines.md) and is built up from evidence over time.
 
 The point of this file is to keep the diagnosis from sitting alone — to show what kinds of practices the foundation seems to call for. Every gesture here is a hypothesis the methodology will eventually test, not a finding.
 

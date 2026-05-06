@@ -14,7 +14,7 @@ This makes the standard reassurance about technology and skills — *the worker 
 
 ## What's here
 
-- **[foundation/](foundation/)** — the diagnosis. Five documents covering the central argument, the catalog of AI attributes (17 in 5 clusters, each tagged structural / temporary / ambiguous), the deep-dive on innovation as a different operation, the implications gestures, and open questions. Read [`foundation/00-why-reimagine.md`](foundation/00-why-reimagine.md) first.
+- **[foundation/](foundation/)** — the diagnosis. Four documents covering the central argument (which includes the recombination-vs-innovation distinction in §3), the catalog of AI attributes (17 in 5 clusters, each tagged structural / temporary / ambiguous), the implications gestures, and open questions. Read [`foundation/00-why-reimagine.md`](foundation/00-why-reimagine.md) first. The deeper literature synthesis on innovation that backs the foundation lives in [`evidence/literature-notes/innovation-as-different-operation.md`](evidence/literature-notes/innovation-as-different-operation.md).
 - **[methodology/](methodology/)** — the prescription. [`methodology/guidelines.md`](methodology/guidelines.md) currently has 15 initial guidelines, all at status `proposed`, each tied to an attribute, an evidence trail, and an explicit skill implication.
 - **[evidence/](evidence/)** — interviews, structured experiments, working-session observations, and an annotated reading list. The substrate the foundation and methodology rest on.
 - **[log/](log/)** — the chronicle. What happened in the inquiry, when, why something changed.
@@ -26,7 +26,7 @@ If you have ten minutes: [`foundation/00-why-reimagine.md`](foundation/00-why-re
 
 If you have thirty minutes: `00`, then skim [`01-ai-attributes.md`](foundation/01-ai-attributes.md) for the detailed attribute catalog, then [`methodology/guidelines.md`](methodology/guidelines.md) for the initial guidelines.
 
-If you want the full picture: read `foundation/` in order (`00` → `04`), then the methodology, then the [reading list](evidence/reading-list.md).
+If you want the full picture: read `foundation/` in order (`00` → `03`), then [the innovation literature note](evidence/literature-notes/innovation-as-different-operation.md), then the methodology, then the [reading list](evidence/reading-list.md).
 
 ## What this is not
 

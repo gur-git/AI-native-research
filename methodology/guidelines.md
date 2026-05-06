@@ -89,7 +89,7 @@ Maintenance overhead. The file goes stale if the discipline lapses, and stale fi
 
 #### Notes
 
-The Tao reference is about math specifically; the practice generalizes because the underlying attribute (session forgetting) is general. This is open question Q3 in `foundation/04-open-questions.md` — whether the discipline scales without becoming its own friction.
+The Tao reference is about math specifically; the practice generalizes because the underlying attribute (session forgetting) is general. This is open question Q3 in `foundation/03-open-questions.md` — whether the discipline scales without becoming its own friction.
 
 ---
 
@@ -128,7 +128,7 @@ This guideline is what makes the cluster II diagnosis actionable. Without it, AI
 
 **Status:** proposed (last reviewed 2026-05-06)
 **Addresses attribute(s):** A1, A4 (cluster I)
-**Evidence trail:** `foundation/02-innovation.md`; reading-list entries on Campbell BVSR, March, Stanley, Sarasvathy.
+**Evidence trail:** `evidence/literature-notes/innovation-as-different-operation.md`; reading-list entries on Campbell BVSR, March, Stanley, Sarasvathy.
 **Skill implication:** Develops the metacognitive capacity to recognize, in the moment, which kind of operation a task is — recombination of known elements, or innovation that requires variation outside the known distribution. This recognition is itself a research skill that AI cannot supply; the practice of asking the question at every task is what builds it.
 
 #### Practice
@@ -147,7 +147,7 @@ The classification step adds metacognitive overhead. It is also imperfect — re
 
 #### Notes
 
-This guideline is the methodology's operationalization of `foundation/02-innovation.md` §2. It has obvious overlap with G1 (the empower question is sharper for innovation work), and the two should usually be applied together.
+This guideline is the methodology's operationalization of `evidence/literature-notes/innovation-as-different-operation.md` §2. It has obvious overlap with G1 (the empower question is sharper for innovation work), and the two should usually be applied together.
 
 ---
 
@@ -174,7 +174,7 @@ This guideline costs measurable productivity in the short term. Whole-task outso
 
 #### Notes
 
-Open question Q12 in `foundation/04-open-questions.md` flags that this guideline may not generalize across all research domains. Some tasks may genuinely decompose; the guideline is most load-bearing where they do not.
+Open question Q12 in `foundation/03-open-questions.md` flags that this guideline may not generalize across all research domains. Some tasks may genuinely decompose; the guideline is most load-bearing where they do not.
 
 ---
 
@@ -263,7 +263,7 @@ This guideline is most useful for innovation work (G4). For recombination work, 
 
 **Status:** proposed (last reviewed 2026-05-06)
 **Addresses attribute(s):** A6, A7 (cluster II)
-**Evidence trail:** Derived from cluster II (self-validation default, sycophancy) and the verification-first direction in `foundation/03-implications.md`.
+**Evidence trail:** Derived from cluster II (self-validation default, sycophancy) and the verification-first direction in `foundation/02-implications.md`.
 **Skill implication:** Develops the researcher's adversarial-thinking skill — the practice of attacking one's own design before defending it. AI's default disposition is validation; the explicit attack-prompt is the practice that builds the falsification habit.
 
 #### Practice
@@ -314,8 +314,8 @@ The point of this guideline is to prevent A8 (hallucination at the frontier) fro
 ### G11: Maintain a direction-and-outcome log to develop taste over time
 
 **Status:** proposed (last reviewed 2026-05-06)
-**Addresses attribute(s):** Cluster I, related to A4; addresses Q7 in `04-open-questions.md`.
-**Evidence trail:** `foundation/02-innovation.md` §4 (selective-retention practice); reading-list entries on Campbell BVSR.
+**Addresses attribute(s):** Cluster I, related to A4; addresses Q7 in `foundation/03-open-questions.md`.
+**Evidence trail:** `evidence/literature-notes/innovation-as-different-operation.md` §4 (selective-retention practice); reading-list entries on Campbell BVSR.
 **Skill implication:** Develops taste — judgment about which directions are interesting, where "interesting" means load-bearing for things not yet known. Taste is the half of the BVSR operation AI cannot supply, and is the most consequential long-horizon skill of a researcher.
 
 #### Practice
@@ -342,7 +342,7 @@ This guideline is the methodology's response to open question Q7 — what select
 
 **Status:** proposed (last reviewed 2026-05-06)
 **Addresses attribute(s):** A4 (cluster I); related to A1.
-**Evidence trail:** `evidence/reading-list.md` — March (1991) on the drift toward exploitation. `foundation/02-innovation.md` §4.
+**Evidence trail:** `evidence/reading-list.md` — March (1991) on the drift toward exploitation. `evidence/literature-notes/innovation-as-different-operation.md` §4.
 **Skill implication:** Preserves the practice of working on questions whose payoff is uncertain and distant — the practice that the gradient toward AI-cheap exploitation actively erodes. Without deliberate maintenance, the researcher loses both the taste for exploration and the patience for it.
 
 #### Practice
@@ -361,7 +361,7 @@ Protected time is real opportunity cost. Deadlines and deliverables genuinely co
 
 #### Notes
 
-Open question Q8 in `foundation/04-open-questions.md` is whether this discipline holds against the gradient. Without measurement (G7), it likely does not.
+Open question Q8 in `foundation/03-open-questions.md` is whether this discipline holds against the gradient. Without measurement (G7), it likely does not.
 
 ---
 
@@ -369,7 +369,7 @@ Open question Q8 in `foundation/04-open-questions.md` is whether this discipline
 
 **Status:** proposed (last reviewed 2026-05-06)
 **Addresses attribute(s):** A1, A2, A8 (cluster I, II); related to A16, A17 (cluster V).
-**Evidence trail:** `foundation/02-innovation.md` §4 ("use AI as substrate, not as agent"); `foundation/03-implications.md` (cluster V direction).
+**Evidence trail:** `evidence/literature-notes/innovation-as-different-operation.md` §4 ("use AI as substrate, not as agent"); `foundation/02-implications.md` (cluster V direction).
 **Skill implication:** Preserves the navigation skill — the researcher's choice of which way to go in the work. Outsourcing navigation to AI is the most consequential form of replacement. Using AI to map the terrain instead, while staying in the navigation, develops both the navigation and the map-reading.
 
 #### Practice
@@ -418,7 +418,7 @@ A serious replication takes days to a few weeks. This is real time. The methodol
 
 #### Notes
 
-This is the methodology's operationalization of the Wissner-Gross GPD framing for individual researchers. Open question Q5 in `foundation/04-open-questions.md` flags the open question of whether this is practical at solo scale.
+This is the methodology's operationalization of the Wissner-Gross GPD framing for individual researchers. Open question Q5 in `foundation/03-open-questions.md` flags the open question of whether this is practical at solo scale.
 
 ---
 

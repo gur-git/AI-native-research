@@ -99,9 +99,9 @@ Contributed:
 
 ---
 
-## Innovation literature (foundation/04-innovation.md anchors)
+## Innovation literature
 
-The four lines of work that converge on innovation as joint variation + selection. Read at the abstract-and-overview level for the first draft of `04-innovation.md`; deeper reading expected as the inquiry continues.
+The four lines of work that converge on innovation as joint variation + selection. The synthesis of how these bear on AI-assisted research is in [`literature-notes/innovation-as-different-operation.md`](literature-notes/innovation-as-different-operation.md); the foundation-level claims drawn from this synthesis live in `foundation/00-why-reimagine.md` §3 and `foundation/01-ai-attributes.md` (A1, A4).
 
 ### Campbell (1960) — Blind Variation and Selective Retention
 
