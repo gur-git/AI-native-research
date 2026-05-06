@@ -21,13 +21,14 @@ Do not invoke to add aspirational practices. A guideline must trace to evidence,
 2. **Diagnostic motivation** — which attribute(s) does this address? Reference by number from `foundation/01-ai-attributes.md`.
 3. **The practice** — concretely, what does the researcher do? Step-level, not principle-level.
 4. **Evidence trail** — which evidence files motivated this? List by path.
-5. **Status** — where is this guideline in its lifecycle?
+5. **Skill implication** — what capacity does this practice develop, preserve, or risk substituting? This is **required**. A guideline that cannot articulate what skill it builds is one that risks substituting for skill, and the methodology's central principle (empower, not replace — `foundation/00-why-reimagine.md` §5) cannot tolerate that. If you genuinely cannot answer this, do not add the guideline; revisit the foundation instead.
+6. **Status** — where is this guideline in its lifecycle?
    - `proposed` — written down, not yet tested.
    - `testing` — being trialed in real research work; data being collected.
    - `adopted` — evidence supports it; promoted to the live methodology.
    - `retired` — evidence contradicts it, or it was superseded by a better practice. Keep retired guidelines in the file; do not delete.
-6. **What success looks like** — how will the researcher know this guideline is helping? Specific, measurable where possible.
-7. **Known costs** — what does this guideline cost in time, attention, or friction? Honest accounting.
+7. **What success looks like** — how will the researcher know this guideline is helping? Specific, measurable where possible.
+8. **Known costs** — what does this guideline cost in time, attention, or friction? Honest accounting.
 
 ## File to write
 
