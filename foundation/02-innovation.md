@@ -1,6 +1,6 @@
 # Innovation as a different operation
 
-The cost-structure framing in [`00-why-reimagine.md`](00-why-reimagine.md) treats "producing a draft" as a single operation whose cost has fallen. This document is the deeper treatment of why that is incomplete: producing knowledge-work output is at least two qualitatively different operations, and the most consequential one for research — innovation — is not a clean recipient of AI's cost reduction.
+[`00-why-reimagine.md`](00-why-reimagine.md) §3 introduces the recombination/innovation distinction in compact form. This document is the deeper treatment: producing knowledge-work output is at least two qualitatively different operations, the most consequential one for research is innovation, and innovation is not a clean recipient of AI's cost reduction. The empower-not-replace mindset in `00` §5 lands hardest here, because innovation specifically requires the kinds of skills (taste, depth, negative-space recognition) that whole-task outsourcing erases.
 
 The diagnosis here matters because the methodology that follows from "production is cheap, judgment is expensive" is correct for routine work and silently wrong for the part of research where most of the value is generated. A foundation that does not address this is one-legged.
 
@@ -54,9 +54,11 @@ Three points, increasing in stakes.
 
 The combined picture: AI is a partial-fit collaborator for innovation work. It is genuinely useful as a substrate that maps the known terrain — fluent summaries of existing literature, parallel exploration of well-trodden adjacent space, scaffolding that frees the researcher's attention for blind variation and retrospective selection. It is not the agent of innovation itself.
 
+This connects directly to the empower-not-replace mindset in [`00-why-reimagine.md`](00-why-reimagine.md) §5. Innovation work is where the choice between empowering and replacing has the highest stakes. Taste, depth, and negative-space recognition are exactly the skills A16 (output without reciprocal skill development) puts at risk: they are slow to build, easy to skip past with AI assistance, and invisible by their absence in any short-term productivity measurement. A researcher who outsources the routine and pretends innovation will take care of itself is on a path that ends with neither — fluent recombination output and no developing capacity to do anything else. The methodology has to make this risk visible at the point of choice, not after the capacity has already eroded.
+
 ## 4. What the methodology has to do differently
 
-This is gesture, not commitment, in the spirit of [`02-what-this-implies.md`](02-what-this-implies.md). Concrete practices belong in `methodology/guidelines.md` once evidence supports them.
+This is gesture, not commitment, in the spirit of [`03-implications.md`](03-implications.md). Concrete practices belong in `methodology/guidelines.md` once evidence supports them.
 
 **Distinguish recombination work from innovation work in the workflow.** Most current "AI-for-research" practice does not. A literature scan, a routine analysis, a fluent draft of a known argument — recombination, AI-cheap, judgment-heavy. A new framing, a method that did not exist, a hypothesis that nobody has stated — innovation, AI-partial, taste-heavy. The methodology should have different practices for the two, and explicit awareness of which kind of work is happening at any moment.
 
@@ -64,13 +66,13 @@ This is gesture, not commitment, in the spirit of [`02-what-this-implies.md`](02
 
 **Protect the conditions for blind variation.** Depth requires uninterrupted time on one thread. Negative-space recognition requires attention that is not fully bound to AI-mediated workflows (because what is missing from a frame is invisible to a system trained on examples within the frame). Recognition-over-generation requires exposure to results without the algorithmic ranking AI workflows tend to impose. These are conditions, not techniques — which means the methodology must include practices that guard them, not only practices that do work.
 
-**Develop selective-retention practice deliberately.** Taste is partly innate, partly developed, and the development requires repeated exposure to "I picked this direction because it felt important; here is what came of it" with honest retrospection. A research log that records direction-choices and their outcomes — not just experiments and results — is the substrate for developing taste. This is different from the log practice the [`02-what-this-implies.md`](02-what-this-implies.md) gesture invokes for cumulative state; it is a parallel discipline addressed at the selection half of BVSR.
+**Develop selective-retention practice deliberately.** Taste is partly innate, partly developed, and the development requires repeated exposure to "I picked this direction because it felt important; here is what came of it" with honest retrospection. A research log that records direction-choices and their outcomes — not just experiments and results — is the substrate for developing taste. This is different from the log practice the [`03-implications.md`](03-implications.md) gesture invokes for cumulative state; it is a parallel discipline addressed at the selection half of BVSR.
 
 **Use AI as substrate, not as agent.** Where AI's bias toward the trained distribution is a problem, frame the work to use that bias as scaffolding. Ask AI to map the known thoroughly so the human can see where the map ends. Ask AI to produce the routine variants so the human's attention is available for the non-routine ones. Ask AI for the obvious objections so the human can notice the non-obvious ones. This is the opposite posture from "AI as collaborator" — it is "AI as terrain map." For innovation work specifically, terrain-map is the more honest framing.
 
 ## 5. Open questions
 
-These are added to [`03-open-questions.md`](03-open-questions.md):
+These are added to [`04-open-questions.md`](04-open-questions.md):
 
 - Can AI produce variation that is genuinely blind in Campbell's sense, or is its bias toward the trained distribution a structural ceiling? Stanley's open-endedness research is the active line; the answer is not settled.
 - What does selective retention look like for an individual researcher with no team and no postdoc-fellow rhythm? The classic accounts of taste assume a research group culture that most early-career researchers do not have access to.

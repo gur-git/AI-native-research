@@ -40,7 +40,7 @@ Wissner-Gross's GPD suggests that AI can replicate published work end-to-end as 
 
 ### Q6: Can AI produce variation that is genuinely blind in Campbell's sense, or is its bias toward the trained distribution a structural ceiling?
 
-The current foundation position (`04-innovation.md`) is that AI's "novelty" is biased toward the trained distribution — fluent recombination, not blindness in BVSR's sense. Stanley's Open-Endedness research at OpenAI is the active line attempting to address this. The answer is not settled.
+The current foundation position (`02-innovation.md`) is that AI's "novelty" is biased toward the trained distribution — fluent recombination, not blindness in BVSR's sense. Stanley's Open-Endedness research at OpenAI is the active line attempting to address this. The answer is not settled.
 
 **What would resolve this:** observation across model generations of whether outputs framed as "novel" cluster near training-distribution modes, or genuinely escape them. Likely requires testing with frontier models specifically trained or prompted for open-ended search, not general-purpose chat models. Stanley's published work is the place to track progress.
 
@@ -61,6 +61,24 @@ March's warning is that organizations follow gradients, and AI sharpens the grad
 The foundation as written is heavily focused on what can go wrong with AI in research — failure modes, perception gaps, verification needs. The generative side — what kinds of research become newly feasible because AI exists — is underdeveloped. Whether this is the right balance, or an artifact of the source material's defensive posture, is open.
 
 **What would resolve this:** observation of what kinds of research projects the maintainer (or other researchers) actually start in this regime that would not have been feasible before, and whether the foundation's framing suppresses or supports them. Likely requires the pilot research project to surface this question concretely.
+
+### Q10: How does a researcher distinguish empowerment from replacement in the moment?
+
+The mindset shift in `00-why-reimagine.md` §5 — empower, not replace — is the methodology's central principle. But the boundary between empowering use of AI and replacing use of AI is not always obvious in the moment of choice. The same prompt can be empowering or replacing depending on what the researcher does with the output, what they would have done without it, and which practices they are skipping. Without a clearer way to recognize the difference at the point of choice, the methodology asks researchers to apply a principle they cannot reliably apply.
+
+**What would resolve this:** observation across many real working sessions, with the researcher noting in real time whether each AI use felt empowering or replacing, and reviewing those notes weeks later to see whether the in-the-moment judgment held up. Patterns may emerge that can be operationalized into recognizable signals. Until they do, the methodology has to lean on coarse heuristics (e.g., "did I learn something I didn't know?", "could I reproduce this without AI in six months?").
+
+### Q11: How should the methodology track researcher development?
+
+`00-why-reimagine.md` §3 names the researcher's growing competence as a primary output of research, and `01-ai-attributes.md` A16 explains why AI specifically endangers it. But measuring development is hard. Skills compound on long timescales; atrophy is invisible until needed; the researcher is a poor judge of their own current capability (cluster IV). The methodology has to track the second output, but how is open.
+
+**What would resolve this:** experiment with several candidate practices — periodic skills audits ("can I still do X by hand?"), capability journals (what was hard a month ago, what is easy now), structured replication of past work (re-doing one's own work without AI to see what skills remain) — and observe which produce useful signal without consuming so much attention that they undermine the development they aim to track.
+
+### Q12: Does empower-not-replace generalize across research domains?
+
+The framing assumes research tasks resist clean decomposition (A17) and that researcher development is a primary output. Both are likely true across most research, but the *strength* of each may vary. Some experimental domains may have task structures that genuinely separate cleanly (e.g., AI generates protocols, the human runs the experiment). Some pure-theory domains may have research where development happens almost entirely outside AI-touched work. The mindset's universality is open.
+
+**What would resolve this:** comparing observations across at least three distinct research domains. If the empower/replace question lands the same way in physics, biology, and computer science, the framing generalizes. If different domains have categorically different relationships to the question, the methodology may need domain-specific instantiations.
 
 ---
 

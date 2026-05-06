@@ -22,7 +22,7 @@ The attributes are grouped into four clusters that capture roughly distinct kind
 
 **Tag: structural.**
 
-**Why.** This is partly an artifact of training data — most of any training corpus is established work, so the model's manifold of "things it knows how to do" is dominated by recombinations of established work. But it is also a consequence of what current architectures do. Pretrained transformers interpolate within a learned distribution; they are extraordinary at fluent recombination and have no principled mechanism for extrapolation outside that distribution. Whether scaling alone closes this gap is contested in the field. The empirical record so far — across model generations from GPT-3 through current frontier models — shows benchmark numbers rising without a corresponding shift in the breadth-vs-depth pattern. New techniques are still produced overwhelmingly by humans; AI is still applied to recombine them at scale. The boundary between "established" and "novel" may shift as models absorb more recent work, but the asymmetry between recombination and genuine novelty is a property of how this technology works, not a transient capability gap. Methodology should expect it to persist.
+**Why.** This is partly an artifact of training data — most of any training corpus is established work, so the model's manifold of "things it knows how to do" is dominated by recombinations of established work. But it is also a consequence of what current architectures do. Pretrained transformers interpolate within a learned distribution; they are extraordinary at fluent recombination and have no principled mechanism for extrapolation outside that distribution. Whether scaling alone closes this gap is contested in the field. The empirical record so far — across model generations from GPT-3 through current frontier models — shows benchmark numbers rising without a corresponding shift in the breadth-vs-depth pattern. New techniques are still produced overwhelmingly by humans; AI is still applied to recombine them at scale. The boundary between "established" and "novel" may shift as models absorb more recent work, but the asymmetry between recombination and genuine novelty is a property of how this technology works, not a transient capability gap. Methodology should expect it to persist. This attribute is also load-bearing for cluster V (A16, A17): a tool that is reliable on routine recombination and unreliable on novel work invites users to outsource the routine and gradually lose the practice the routine builds.
 
 ### A2: Cross-domain transfer is cheap
 
@@ -150,18 +150,42 @@ The attributes are grouped into four clusters that capture roughly distinct kind
 
 ---
 
+## Cluster V — AI changes the user
+
+The four clusters above describe what AI is and how its outputs behave. This cluster describes something different: what happens to the person using AI. The methodology has to track not only what AI does but what AI does *to the people doing research with it*. The argument for why this cluster deserves its own home in the catalog is laid out in [`00-why-reimagine.md`](00-why-reimagine.md) §2.
+
+### A16: Output without reciprocal skill development
+
+**What it is.** AI is the first tool in the history of knowledge work that can produce useful output without requiring the user to develop any compensating capability. Calculators required calculator-literacy. Compilers required higher-language fluency. GPS required route-planning judgment. Each prior tool changed the skill set; the user was still skilled, just at different things, and the new skills compounded the way the old ones had. AI breaks this pattern. "Prompt and accept" is not a skill that compounds the way calculator-operation did. A user can produce fluent output indefinitely without growing.
+
+**Tag: structural.**
+
+**Why.** This is a property of how the technology works, not a current limitation. Prior tools required user input that was *informationally substantial* — the user had to know what they wanted with enough specificity that operating the tool was itself an exercise of skill. AI accepts input that is informationally thin (a vague natural-language request) and produces output that is fluent enough to look complete. The asymmetry between input cost and output quality is the source of the skill-substitution effect, and that asymmetry is what makes AI valuable. It will not be designed away. Improvements to AI tend to widen the asymmetry, not close it. The methodological response is not to wait for AI to require skill from its users; it is to make the user's skill development an explicit, tracked output of the workflow rather than a hoped-for side effect. This attribute is what the empower-not-replace mindset in [`00-why-reimagine.md`](00-why-reimagine.md) §5 is responding to.
+
+### A17: Tasks resist clean decomposition into "AI part" and "human part"
+
+**What it is.** The natural defense against A16 is to delegate routine portions of a task to AI while keeping the human on the difficult portions. This works for tasks that decompose cleanly. Most research tasks do not. The fine-grained interleaving of well-trodden technique and original move is most of what makes a task research rather than execution; the routine and the original are not in separate paragraphs, they are in the same sentence. Doing partial outsourcing — the human's part, then reviewing AI's part, then integrating — is more work than either alternative. Whole-task outsourcing is easier and produces fluent output. Doing the whole task by hand preserves skill but forfeits AI's value. The temptation is structural: the task does not give the researcher a clean place to cut.
+
+**Tag: structural.**
+
+**Why.** This is jointly a property of research tasks and of how AI is offered to the user. Research tasks are non-decomposable because the value of research lives in the interleaving of routine and original work — separating them removes what makes the task research. AI is offered as a tool that takes natural-language requests and produces complete outputs; it is not naturally suited to half-completing a task in the way a junior assistant would be. Both halves of this could shift — task structure varies across research domains, and AI tooling could in principle be designed for finer-grained collaboration — but the gradient as it currently stands pulls toward whole-task outsourcing, and the workflows researchers actually use reflect that. The methodological response is to refuse the temptation deliberately on tasks where staying involved at fine grain is what builds the capacity that matters, and to make that refusal a practice rather than a moment of willpower. See [`03-implications.md`](03-implications.md) for what this looks like in gestures, and the methodology guidelines for concrete attempts.
+
+---
+
 ## Cross-cluster note: how the tagging should be read
 
 The point of the structural / temporary / ambiguous tagging is to direct the methodology's design budget. There is no methodological reward for elaborately addressing an attribute that will be solved by next year's models. There is also no reward for ignoring an attribute that the technology has closed; better to retire the practice and reclaim the attention.
 
 In practical terms:
 
-- **Structural attributes** (A1, A2, A3, A4, A6, A9, A13, A14, A15) deserve sustained methodological investment. Practices that address them should be honest, evidence-based, and expected to remain valid across model generations.
+- **Structural attributes** (A1, A2, A3, A4, A6, A9, A13, A14, A15, A16, A17) deserve sustained methodological investment. Practices that address them should be honest, evidence-based, and expected to remain valid across model generations.
 - **Temporary attributes** (A12) are worth flagging in case a researcher hits them, but do not warrant a guideline. Standardizing logging takes care of the issue.
 - **Ambiguous attributes** (A5, A7, A8, A10, A11) deserve modest methodological investment, with the understanding that the size of the problem may change. Practices addressing them should be revisable.
 
-The tagging is itself a working hypothesis. Open question Q1 in `03-open-questions.md` tracks the question of which attributes really are structural and which are temporary; the answer comes from observing the attribute's persistence across model generations, not from any single moment.
+Cluster V (A16, A17) deserves a particular emphasis. These are the attributes the field's mainstream commentary on AI tends to underweight, because they describe slow effects on the user that are invisible in any short-term productivity measurement. Most of the empower-not-replace mindset's load-bearing work is on these two.
+
+The tagging is itself a working hypothesis. Open question Q1 in [`04-open-questions.md`](04-open-questions.md) tracks the question of which attributes really are structural and which are temporary; the answer comes from observing the attribute's persistence across model generations, not from any single moment.
 
 ---
 
-*Last revised 2026-05-05. Initial draft, based on the reading documented in `evidence/reading-list.md`. Tags reflect the inquiry's first read; expect them to be revised as evidence accumulates.*
+*Last revised 2026-05-06. Cluster V (A16, A17) added in response to in-conversation development of the empower-not-replace framing. Initial draft of clusters I–IV from 2026-05-05 is otherwise unchanged.*
