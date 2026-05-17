@@ -2,7 +2,9 @@
 
 The diagnosis. This is where the inquiry lays out *why* research must be reimagined and *what* about AI forces the reimagining. The methodology that follows ([`../methodology/`](../methodology/)) is built up from this diagnosis plus accumulating evidence; nothing is in the methodology that does not trace back to something here.
 
-If you have ten minutes, read `00-why-reimagine.md`. That is the front door and contains the full argument in compact form. The other files are detailed extensions: the catalog of AI attributes, the gestures toward methodology, and the open questions.
+The repo's compressed charter — the why and how stated for the repo as a whole — is in [`../GOAL.md`](../GOAL.md). The documents in this directory are the substantiated long-form of that charter's argument.
+
+If you have five minutes, read `../GOAL.md`. If you have ten minutes, read `00-why-reimagine.md` — the front door of this directory, containing the full argument in compact form. The other files are detailed extensions: the catalog of AI attributes, the gestures toward methodology, and the open questions.
 
 ## Reading order
 

@@ -4,11 +4,11 @@ The prescription. This is where the methodology lives — practices the inquiry 
 
 ## Guiding principle
 
-Every guideline in this directory is evaluable against one question: **does this practice grow the researcher, or does it substitute for them?**
+Every guideline in this directory is evaluable against one question: **does this practice grow the researcher's capacity to do the research job at the level it is actually judged on, or does it substitute for that capacity?**
 
-The foundation's central mindset shift (`foundation/00-why-reimagine.md` §5: *empower, not replace*) is the methodology's working principle. A guideline that produces fluent output without developing the researcher's capacity is not an improvement over the default — it *is* the default the methodology exists to push against.
+The repo's central commitment ([`../GOAL.md`](../GOAL.md) §The commitment, substantiated in [`../foundation/00-why-reimagine.md`](../foundation/00-why-reimagine.md) §7: *empower, not replace*) is the methodology's working principle. The principle is applied at the level of the whole research job, not at every micro-task; routine operations AI can handle without invoking the test (syntax, formatting, mechanical conversions) are a different category. A guideline that produces fluent output *at the level the job is judged on*, without developing the researcher's capacity at that level, is not an improvement over the default — it *is* the default the methodology exists to push against.
 
-Every guideline therefore has a `Skill implication` field that names what capacity the practice develops, preserves, or risks substituting. Guidelines that cannot articulate this are flagged and revisited, not added.
+Every guideline therefore has a `Skill implication` field that names what capacity the practice develops, preserves, or risks substituting. Guidelines that cannot articulate this are flagged and revisited, not added. The boundary between skills the methodology is comfortable seeing replaced and skills it insists on preserving moves upward as AI improves; guidelines are reviewed periodically against that drift.
 
 ## Files
 

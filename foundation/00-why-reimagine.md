@@ -28,13 +28,15 @@ Every prior tool made a clean trade. It took a skill from the user and required 
 
 A real skill set is forming around AI, too — and it is not just prompt craft. It includes the judgment of what to delegate and what to keep, the verification work of telling plausible output from correct output, the recognition of how a particular model fails and where it drifts, the workflow design that keeps the model in the lanes where it works, the taste and domain feel that lets you evaluate what came back. The set is still being mapped; this is illustration, not enumeration. A researcher who develops it gets two things at once: a compensating capacity of the kind prior tools always gave back, *and* materially better results from AI than the unskilled user gets.
 
-But — and this is the structural break — AI does not *require* any of it. The user can produce serviceable output indefinitely without developing the new skill set at all. The calculator wouldn't compute if you didn't know what to type. The compiler wouldn't optimize if you didn't write the code. AI will give you something usable from one underspecified sentence.
+But — and this is the structural break — AI does not *require* any of it. The user can produce passable output indefinitely without developing the new skill set at all. The calculator wouldn't compute if you didn't know what to type. The compiler wouldn't optimize if you didn't write the code. AI will give you something usable from one underspecified sentence — usable enough to feel like progress, but qualitatively below what the same prompt would have produced in skilled hands.
 
 This is the structural claim everything else rests on:
 
 > AI is the first tool that can substitute for skill without requiring reciprocal skill development.
 
-The skill is real, available, and rewarding. It is also optional in a way no prior tool's compensating skill was. The output is real whether you develop the skill or not. The growth is not. This is a property of how the technology works, and not coincidentally the source of its value. (There is a further question about whether AI may eventually become capable enough that the skillful user has no edge over the unskilled one. That is not the world this repo addresses.)
+The skill is real, available, and rewarding — and it is what separates AI slop from work a researcher should be willing to put their name on. It is also optional in a way no prior tool's compensating skill was. The unskilled researcher gets a worse output *and* gets no growth; the skilled one gets a better output *and* gets growth. The default path is the worse one on both axes, which is a property of how the technology works and not coincidentally the source of its value.
+
+A note on trajectory. As AI capabilities improve, the floor of what an unskilled user can produce will rise — but so will the ceiling of what a skilled user can produce, and the skill set itself will shift as AI shifts. Having the appropriate skill set, whatever its current shape, remains beneficial. The scenario in which the floor catches the ceiling — where even the basic skills of articulating what one wants and recognizing when the output is right stop mattering — would correspond to a regime in which AI works without human involvement at all. This repo does not address that regime.
 
 The methodological response cannot be to wait for AI to require skill from its users. It will not. The response has to be to reorganize how we work — to build into our workflows the practice that the technology no longer extracts from us by default. That reorganization is what this repo means by *reimagining research*.
 
@@ -80,19 +82,27 @@ There is a window. A researcher who reorganizes deliberately — who uses AI in 
 
 ## 7. The response: empower, not replace
 
-The methodological response has to actively preserve and develop the skill AI does not require.
+The methodological response has to actively preserve and develop the skill AI does not require — at the level the research job is actually judged on.
 
 The choice is no longer whether to use AI. That choice has been made. The choice is whether to use it in ways that empower the researcher or in ways that replace them.
 
-**Empower** means: AI is used in service of building the researcher's capacity — including their skill at using AI itself, the new skill set §3 named. Every use is evaluable against the question — *will I be more capable as a result of this, or less?*
+The principle applies at the level of the whole job, not at the level of every micro-task. A researcher who lets AI handle a piece of routine code syntax, a citation format, or a unit conversion has lost a skill — and most of the time that loss is fine. Skills below the level at which research value is created are skills the methodology is comfortable seeing replaced; the replacement is what frees attention for the work that compounds.
 
-**Replace** means: AI is used to produce outputs the researcher could not have produced themselves and now will not learn to produce. The output exists. The capacity does not develop, and may atrophy.
+What the methodology insists on preserving is the skill set required to do the research job at the level it is actually judged on: framing the question well, designing investigations that would convincingly verify, recognizing when a result is too good, knowing which threads to develop and which to drop, building the taste and the verification habits that make the work trustworthy.
 
-The two are not always easy to distinguish in the moment. The same AI prompt can be either, depending on what the researcher does with the output, what they would have done without it, whether they engage critically with what comes back, and whether the practice they are skipping is one they need to keep. The methodology cannot provide a clean rule. It can provide a framing that makes the question visible at every choice, and a set of practices that bias the answer in the right direction.
+**Empower** means: AI is used in ways that let a researcher do more or better research than they could have otherwise, while continuing to build the capacity that lets them keep doing so — including the capacity to use AI itself well, which is part of what producing valuable research now requires. Every use that crosses the threshold of substantive contribution is evaluable against the question — *will my capacity to do the research job, at the framing at which the job is judged, be greater as a result of this, or smaller?*
 
-Empower-not-replace is not a slogan. It is a question the researcher asks at every step where AI is used, and a question the methodology has to make easy to ask.
+**Replace** means: AI is used to produce, at the level the job is judged on, outputs the researcher could not have produced themselves and now will not learn to produce. The output exists. The capacity does not develop, and may atrophy.
+
+The two are not always easy to distinguish in the moment. The same AI prompt can be either, depending on what the researcher does with the output, what they would have done without it, whether they engage critically with what comes back, and whether the practice they are skipping is one they need to keep. The methodology cannot provide a clean rule. It can provide a framing that makes the question visible at the choices that matter — the choices where AI's output would be the substantive contribution of the moment — and a set of practices that bias the answer in the right direction.
+
+The boundary between skills that may be safely replaced and skills that must be preserved is not fixed. As AI improves, it moves upward: capacities that today are central to the job may become routine enough that their replacement is fine, and the preserved skill set shifts to meet the new frontier. The principle is stable. The line it draws moves with the technology.
+
+Empower-not-replace is not a slogan. It is a question the researcher asks at the level of the work as a whole, and a question the methodology has to make easy to ask and possible to answer.
 
 ## 8. What this repo is
+
+The compressed charter — the why and how, stated for the repo as a whole — is in [`../GOAL.md`](../GOAL.md). This document is the substantiated long-form of that charter's argument.
 
 The aim is not to publish a finished framework. It is to record an inquiry — what was read, what was tried, what worked, what didn't, what was changed and why — in a form another researcher can read along with and borrow from.
 

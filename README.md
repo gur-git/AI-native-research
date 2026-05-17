@@ -8,13 +8,14 @@ If you are a researcher who has already adopted AI in some form, and you are won
 
 ## The inquiry's central claim
 
-AI is the first tool in the history of knowledge work that can produce useful output without requiring the user to develop any reciprocal skill. Calculators changed arithmetic into calculator-literacy. Compilers changed assembly programming into higher-language fluency. GPS changed dead-reckoning into route-planning. AI breaks the pattern: a researcher can produce fluent output indefinitely without growing.
+AI is the first tool in the history of knowledge work that can produce passable output without requiring the user to develop any reciprocal skill. Calculators changed arithmetic into calculator-literacy. Compilers changed assembly programming into higher-language fluency. GPS changed dead-reckoning into route-planning. AI breaks the pattern: a researcher can produce fluent output indefinitely without growing — though that output is qualitatively below what the same prompt would have produced in skilled hands. The skilled researcher gets two things at once that the unskilled one gets neither of: materially better output, and a compensating capacity that compounds.
 
-This makes the standard reassurance about technology and skills — *the worker is still skilled, just at different things* — fail specifically for AI. The methodology this repo is building responds to that with one principle: **empower, not replace.** AI should be used in ways that grow the researcher, not substitute for them. The full argument is in [`foundation/00-why-reimagine.md`](foundation/00-why-reimagine.md).
+This makes the standard reassurance about technology and skills — *the worker is still skilled, just at different things* — fail specifically for AI. The methodology this repo is building responds with one principle: **empower, not replace.** AI should be used in ways that grow the researcher's capacity to do the research job at the level it is actually judged on, rather than in ways that substitute for that capacity. (Lower-level skills the researcher is comfortable letting AI handle — routine syntax, formatting, mechanical operations — are a different category; the principle is judged at the whole-job level.) The repo's charter is in [`GOAL.md`](GOAL.md); the substantiated long-form argument is in [`foundation/00-why-reimagine.md`](foundation/00-why-reimagine.md).
 
 ## What's here
 
-- **[foundation/](foundation/)** — the diagnosis. Four documents covering the central argument (which includes the recombination-vs-innovation distinction in §3), the catalog of AI attributes (17 in 5 clusters, each tagged structural / temporary / ambiguous), the implications gestures, and open questions. Read [`foundation/00-why-reimagine.md`](foundation/00-why-reimagine.md) first. The deeper literature synthesis on innovation that backs the foundation lives in [`evidence/literature-notes/innovation-as-different-operation.md`](evidence/literature-notes/innovation-as-different-operation.md).
+- **[`GOAL.md`](GOAL.md)** — the charter. The repo's why, how, and the commitments everything else aligns to. Read first.
+- **[foundation/](foundation/)** — the diagnosis. Four documents covering the central argument (which includes the recombination-vs-innovation distinction in §3), the catalog of AI attributes (17 in 5 clusters, each tagged structural / temporary / ambiguous), the implications gestures, and open questions. Read [`foundation/00-why-reimagine.md`](foundation/00-why-reimagine.md) after the charter. The deeper literature synthesis on innovation that backs the foundation lives in [`evidence/literature-notes/innovation-as-different-operation.md`](evidence/literature-notes/innovation-as-different-operation.md).
 - **[methodology/](methodology/)** — the prescription. [`methodology/guidelines.md`](methodology/guidelines.md) currently has 15 initial guidelines, all at status `proposed`, each tied to an attribute, an evidence trail, and an explicit skill implication.
 - **[evidence/](evidence/)** — interviews, structured experiments, working-session observations, and an annotated reading list. The substrate the foundation and methodology rest on.
 - **[log/](log/)** — the chronicle. What happened in the inquiry, when, why something changed.
@@ -22,11 +23,13 @@ This makes the standard reassurance about technology and skills — *the worker 
 
 ## Read first
 
-If you have ten minutes: [`foundation/00-why-reimagine.md`](foundation/00-why-reimagine.md). The full argument in compact form.
+If you have five minutes: [`GOAL.md`](GOAL.md). The charter — the repo's why, how, and commitments.
 
-If you have thirty minutes: `00`, then skim [`01-ai-attributes.md`](foundation/01-ai-attributes.md) for the detailed attribute catalog, then [`methodology/guidelines.md`](methodology/guidelines.md) for the initial guidelines.
+If you have ten more: [`foundation/00-why-reimagine.md`](foundation/00-why-reimagine.md). The full argument in compact form — the substantiated long-form of the charter.
 
-If you want the full picture: read `foundation/` in order (`00` → `03`), then [the innovation literature note](evidence/literature-notes/innovation-as-different-operation.md), then the methodology, then the [reading list](evidence/reading-list.md).
+If you have thirty minutes total: `GOAL.md`, then `foundation/00`, then skim [`01-ai-attributes.md`](foundation/01-ai-attributes.md) for the detailed attribute catalog, then [`methodology/guidelines.md`](methodology/guidelines.md) for the initial guidelines.
+
+If you want the full picture: read `GOAL.md`, then `foundation/` in order (`00` → `03`), then [the innovation literature note](evidence/literature-notes/innovation-as-different-operation.md), then the methodology, then the [reading list](evidence/reading-list.md).
 
 ## What this is not
 

@@ -41,30 +41,32 @@ Numbers are sequential and never reused, even when guidelines are retired.
 
 ## Active guidelines
 
-### G1: Treat empower-vs-replace as a question to ask at every AI use
+### G1: Apply the empower-vs-replace question at the level of the research job, not at every AI use
 
-**Status:** proposed (last reviewed 2026-05-06)
+**Status:** proposed (last reviewed 2026-05-17)
 **Addresses attribute(s):** A16, A17 (cluster V)
-**Evidence trail:** Derived from `foundation/00-why-reimagine.md` §5, the central mindset of the inquiry.
-**Skill implication:** Develops the metacognitive capacity to notice when AI use is substituting for skill development versus supporting it. This is the load-bearing skill of the entire methodology; without it, all other guidelines drift toward replacement under the gradient.
+**Evidence trail:** Derived from `../GOAL.md` §The commitment and `foundation/00-why-reimagine.md` §7, the central commitment of the inquiry.
+**Skill implication:** Develops two metacognitive capacities. *First*, recognizing which AI uses cross into the territory where the empower/replace question matters — uses whose output would be the substantive contribution at the level the research job is judged on. *Second*, applying the question well at that level. This is the load-bearing skill of the entire methodology; without it, all other guidelines drift toward replacement under the gradient.
 
 #### Practice
 
-Before any non-trivial AI use, pause for one question: *will I be more capable as a result of this, or less?* The answer is rarely "yes" or "no" — it is usually "yes if I do X, no if I just accept the output." Note the X. Coarse heuristics that help when the question feels uncertain: *did I learn something I didn't know? Could I reproduce this without AI in six months? Am I skipping a practice I would benefit from doing?*
+The question to ask is at the level of the whole research job, not every keystroke: *will my capacity to do the research job — at the framing at which the job is judged — be greater as a result of how I use AI here, or smaller?* Routine syntax, formatting, unit conversions, and similar low-level operations can be handled by AI without invoking the test; these are not the choices the methodology is built to police.
 
-The pause does not have to be elaborate. It needs to be habitual. The point is to make the empower/replace question visible at the moment of choice, not after the choice has compounded into atrophy.
+The threshold for applying the question is whether AI's output would be the substantive contribution of the moment. When yes, pause and ask. The answer is rarely "yes" or "no" — it is usually "yes if I do X, no if I just accept the output." Note the X. Coarse heuristics that help when the question feels uncertain: *did I learn something I didn't know? Could I reproduce this without AI in six months? Am I skipping a practice I would benefit from doing?*
+
+The pause does not have to be elaborate. It needs to be habitual at the right level. The point is to make the empower/replace question visible at the choices that matter, not after the choices have compounded into atrophy.
 
 #### What success looks like
 
-Over time, the researcher can articulate which kinds of AI uses they have reliably found empowering and which they have found replacing. The articulation should be specific to the kind of work — "AI for literature scans empowers me when I cross-check claims against sources; replaces me when I summarize without reading."
+Over time, the researcher can articulate two things: which kinds of AI uses cross the threshold in their work, and which of those threshold-crossing uses have reliably been empowering versus replacing. The articulation should be specific to the kind of work — "AI for literature scans empowers me when I cross-check claims against sources; replaces me when I summarize without reading."
 
 #### Known costs
 
-The pause adds friction. For some uses (formatting a citation, a quick syntactic question), the friction is more than the question is worth. The methodology has to allow the researcher's judgment to skip the pause where it does not serve. Rule of thumb: pause when the AI's output would be the substantive deliverable of the moment.
+The threshold judgment itself adds friction at the beginning, until the researcher's pattern-recognition for "this is a substantive-contribution moment" becomes habitual. Misjudgments in both directions are common: pausing on micro-tasks (over-applies), and not pausing on substantive moments because they didn't feel substantive at the time (under-applies). Both decrease with practice. The threshold also shifts as AI improves: what counts as substantive contribution today may be routine in two years, and the practice has to track that drift.
 
 #### Notes
 
-This is the meta-guideline. Other guidelines below are specific operationalizations of empower-not-replace in particular contexts.
+This is the meta-guideline. Other guidelines below are specific operationalizations of empower-not-replace in particular contexts. Open question Q10 in `foundation/03-open-questions.md` tracks the operational difficulty of applying this guideline reliably — both the threshold judgment and the empower/replace judgment at that threshold.
 
 ---
 

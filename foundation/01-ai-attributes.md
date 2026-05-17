@@ -158,7 +158,7 @@ A nuance worth flagging here, also developed in [`00-why-reimagine.md`](00-why-r
 
 ## Cluster V — AI changes the user
 
-The four clusters above describe what AI is and how its outputs behave. This cluster describes something different: what happens to the person using AI. The methodology has to track not only what AI does but what AI does *to the people doing research with it*. The argument for why this cluster deserves its own home in the catalog is laid out in [`00-why-reimagine.md`](00-why-reimagine.md) §2.
+The four clusters above describe what AI is and how its outputs behave. This cluster describes something different: what happens to the person using AI. The methodology has to track not only what AI does but what AI does *to the people doing research with it*. The argument for why this cluster deserves its own home in the catalog is laid out in [`00-why-reimagine.md`](00-why-reimagine.md) §3.
 
 ### A16: Output without reciprocal skill development
 
@@ -166,7 +166,7 @@ The four clusters above describe what AI is and how its outputs behave. This clu
 
 **Tag: structural.**
 
-**Why.** This is a property of how the technology works, not a current limitation. Prior tools required user input that was *informationally substantial* — the user had to know what they wanted with enough specificity that operating the tool was itself an exercise of skill. AI accepts input that is informationally thin (a vague natural-language request) and produces output that is fluent enough to look complete. The asymmetry between input cost and output quality is the source of the skill-substitution effect, and that asymmetry is what makes AI valuable. It will not be designed away. Improvements to AI tend to widen the asymmetry, not close it. The methodological response is not to wait for AI to require skill from its users; it is to make the user's skill development an explicit, tracked output of the workflow rather than a hoped-for side effect. This attribute is what the empower-not-replace mindset in [`00-why-reimagine.md`](00-why-reimagine.md) §5 is responding to.
+**Why.** This is a property of how the technology works, not a current limitation. Prior tools required user input that was *informationally substantial* — the user had to know what they wanted with enough specificity that operating the tool was itself an exercise of skill. AI accepts input that is informationally thin (a vague natural-language request) and produces output that is fluent enough to look complete. The asymmetry between input cost and output quality is the source of the skill-substitution effect, and that asymmetry is what makes AI valuable. It will not be designed away. Improvements to AI tend to widen the asymmetry, not close it. The methodological response is not to wait for AI to require skill from its users; it is to make the user's skill development — at the level the research job is judged on — an explicit, tracked output of the workflow rather than a hoped-for side effect. This attribute is what the empower-not-replace mindset in [`../GOAL.md`](../GOAL.md) §The commitment and [`00-why-reimagine.md`](00-why-reimagine.md) §7 is responding to.
 
 ### A17: Tasks resist clean decomposition into "AI part" and "human part"
 

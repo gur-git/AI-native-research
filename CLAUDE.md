@@ -8,6 +8,8 @@ A public, evolving inquiry into AI-native research methodology. The diagnosis (w
 
 The repo is not a framework. It is a record of an inquiry, in the open.
 
+The repo's charter — the compressed why and how, the commitments everything else aligns to — is in [`GOAL.md`](GOAL.md). The operating guidance in this file serves the charter. When they appear to conflict, the charter is authoritative and this file should be reconciled to it.
+
 ## Discipline
 
 Four commitments shape how work in this repo should be done.
@@ -18,7 +20,7 @@ Four commitments shape how work in this repo should be done.
 
 **Honest tone.** Observational, not promotional. The reader is a working researcher who can sense when something is overclaimed. Note things matter-of-factly. Distinguish what is known from what is suspected from what is speculation.
 
-**Empower over replace.** The methodology's central principle (`foundation/00-why-reimagine.md` §5). Tools and practices proposed in this repo should grow the researcher, not substitute for them. Every guideline must articulate the skill it develops, preserves, or risks substituting; guidelines that cannot are not added. When AI is used to do work in this repo, the same standard applies — the work should leave the maintainer more capable, not less.
+**Empower over replace.** The methodology's central principle (`GOAL.md` §The commitment, substantiated in `foundation/00-why-reimagine.md` §7). Tools and practices proposed in this repo should grow the researcher's capacity to do the research job at the level it is actually judged on, not substitute for that capacity. Every guideline must articulate the skill it develops, preserves, or risks substituting; guidelines that cannot are not added. Lower-level skills the researcher is comfortable letting AI handle (routine syntax, formatting, mechanical operations) are a different category — the principle is judged at the whole-job level. When AI is used to do work in this repo, the same standard applies at the same frame: the work should leave the maintainer more capable at the research job, not less.
 
 ## Structure
 
