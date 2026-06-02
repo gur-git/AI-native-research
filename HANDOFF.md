@@ -6,15 +6,16 @@ A single self-contained file you drop into a fresh, empty repo and hand to your 
 
 It is general and domain-agnostic — no field, method, or toolchain is assumed. It encodes a small set of operative disciplines and the structure to run them; it does not contain or produce any research.
 
-It derives from a source methodology repo (the "AI-native research" inquiry). This file is a *view* on that work, kept deliberately thin so it can be picked up cold. For the reasoning and evidence behind each discipline, see the source repo (pinned in `CLAUDE.md`). This file is usable standalone; the pointer is for depth, not dependency.
+It derives from a source methodology repo — the *AI-native research* inquiry, published at https://github.com/gur-git/AI-native-research (if you obtained this file from a fork or mirror, use that origin instead). This file is a *view* on that work, kept deliberately thin so it can be picked up cold. The source repo holds the reasoning and evidence behind each discipline **and the agent's operating manual** (`methodology/agent-operating-guide.md`); your agent reaches them through the pin recorded in `CLAUDE.md`. This file is usable standalone, but the operating manual is what makes your agent *advise* you through the work — so connecting to it (below) matters.
 
 **Status: v0, provisional.** This is the lightest prototype that carries the disciplines, not a finished system. The disciplines themselves are `proposed` upstream — hypotheses under test, not validated results — and the right *form* of this scaffold is itself an open question. Keep what helps; if a piece isn't earning its place in your work, drop it and note why in the friction log. Send friction back to the source repo — that is how the methodology revises.
 
 ## How to use it
 
-1. Put this file in a fresh repo. Hand the repo to your agent and tell it to follow the **Scaffolding instructions** below.
-2. Fill in `INTAKE.md` (the agent creates the template; only you can answer it).
-3. Start your research. Re-load `state.md` into each new agent session; update it at the start and end of each session.
+1. Put this file in a fresh repo. Hand the repo to your agent and tell it to **follow the Scaffolding instructions below, then load and operate by the methodology's agent operating manual** (`methodology/agent-operating-guide.md` in the source repo). The scaffolding sets up the workspace; the operating manual is what makes your agent advise you through the work rather than only create files.
+2. Give your agent the **source repo URL and the commit you took this file from**, so it can record the pin in `CLAUDE.md` and fetch the operating manual. If you do not know the exact commit, record the source repo's main branch as a starting point and note it — an unrecorded pin leaves your agent unable to load its manual.
+3. Fill in `INTAKE.md` (the agent creates the template; only you can answer it).
+4. Start your research. Re-load `state.md` into each new agent session; update it at the start and end of each session.
 
 ## The operative principle
 
@@ -42,7 +43,7 @@ Keep the disciplines light. They are heaviest exactly where least needed; let th
 
 ## Scaffolding instructions (for the agent)
 
-Create the files below in the repo root. Use the contents given. Keep every file minimal; do not pad and do not add files not listed here unless the researcher asks. Where a template has fields, leave them blank — do not fill them. After scaffolding, print a short summary of what you created and stop — **do not begin any research work.**
+Create the files below in the repo root. Use the contents given. Keep every file minimal; do not pad and do not add files not listed here unless the researcher asks. Where a template has fields, leave them blank — do not fill them. **Then fetch and read `methodology/agent-operating-guide.md` from the source repo at the pinned commit and operate by it — that manual, not this file alone, is how you work with the researcher from here.** After scaffolding, print a short summary of what you created, flag any unresolved `TODO` source pin as a blocker the researcher must fill before you can load the operating manual, and stop — **do not begin any research work.**
 
 ### Files to create
 
@@ -68,6 +69,7 @@ Write a short operating file containing, in this order, kept to roughly one scre
 - A **session ritual** the agent runs every session, stated as two steps: *At session start — load `state.md` and re-ground in the current question, constraints, and open threads before doing anything else. At session end — update `state.md` (or propose the update for the human to commit).* Add the high-frequency note: re-ground against `state.md` whenever the thread drifts, not only at the boundaries.
 - A line stating that the human — not the agent — updates `state.md` and the ledgers (the agent may propose, never commit).
 - The **source pin**, as three lines: `source_repo:`, `pinned_commit:`, `scaffolded_on:`. The researcher provides the repo URL and commit; leave `TODO` markers if you do not have them — do not invent them. Add one line: *disciplines are status `proposed` upstream; re-pin deliberately when adopting upstream changes.*
+- The **operating-manual pointer**: a line reading *Your operating manual is `methodology/agent-operating-guide.md` in the source repo at the pinned commit — load it and operate by it (advise the researcher through the phases; do not march; do not do the research) before working.* If the source pin is still `TODO`, say so and treat resolving it as the first task, since the manual cannot be loaded without it.
 - The **AI-provenance convention**, one line: *for any relied-on AI output, record model + version, prompt, non-default parameters, and date — in the artifact's commit message (default) or a sibling `<artifact>.aimeta.md`. Expect this to lighten as tooling absorbs it.*
 - The **DO NOT** block (copy from *DO NOT* below, verbatim).
 
@@ -81,7 +83,9 @@ Create with these headers and a one-line placeholder under each:
 # Project state
 _Loaded at the start of every session as the source of truth — not chat history.
 The human updates this at session start and end. The agent reads it to re-ground
-and may propose edits; it does not decide what goes in._
+and may propose edits; it does not decide what goes in. (It may transcribe the
+researcher's own supplied progress into these fields — that is the researcher's
+content; what it must not do is invent or decide substance.)_
 
 ## Current question
 ## Constraints and assumptions
@@ -96,6 +100,11 @@ and may propose edits; it does not decide what goes in._
 ```
 # Intake
 _Fill this in before starting. This is yours; the agent does not answer it for you._
+
+## 0. Where you already are (mid-project only)
+What you currently understand, the directions you have decided, dead ends, open threads, and
+progress so far. Your agent uses this to seed `state.md` from your words — it transcribes what
+you give it, it does not supply the content.
 
 ## 1. Research question
 What are you actually trying to find out? (One or two sentences.)
@@ -157,9 +166,9 @@ pull request if you can name the fix. A link to this log is enough; raw entries 
 ## DO NOT (for the agent)
 
 - **Do not do the researcher's domain research.** Do not propose research questions, hypotheses, directions, methods, or findings; do not fill `INTAKE.md`, `state.md`, or any ledger with substantive content; do not rank candidates before the researcher has; do not answer "which way next" for them (discipline 6). Your job is to build and maintain the workspace and to run inside the disciplines above — not to supply the substantive contribution. If a request would have you produce the substantive contribution, surface the controlling question and hand the decision back.
-- Do not decide what gets logged in `state.md` or the ledgers — that is the human's call (you may propose, never commit).
+- Do not decide what gets logged in `state.md` or the ledgers — that is the human's call (you may propose, never commit). Transcribing the researcher's *own* dictated progress is fine; inventing or deciding substance is not.
 - Do not expand `CLAUDE.md` into a copy of the source methodology; keep it a thin operating file with a pointer.
-- Do not add structure beyond what is listed here. If something seems missing, note it in `FRICTION.md` rather than building it.
+- Do not add structure beyond what is listed here on your own. You *may* propose adapting the scaffold to the researcher's situation (for example, a mid-project start) and apply it with their okay — note the change in `FRICTION.md`. Suggestions the researcher does not adopt go in `FRICTION.md` rather than getting built.
 - Do not invent the source repo URL or commit SHA; leave TODO markers if you do not have them.
 
 ## A note on v0

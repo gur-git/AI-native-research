@@ -1,5 +1,7 @@
 # A draft of the AI-native research process (speculative v0)
 
+> **Phase-scheme note.** The phase scheme an agent actually operates on is the reconciled 0–7 arc in [`agent-operating-guide.md`](agent-operating-guide.md) (Orient · Context · Survey-then-focus · Design · Execute · Verify · Disseminate · Respond). This document is the longer descriptive treatment, still written around an older `0a–9` decomposition and being reconciled to the 0–7 scheme; where they differ, the operating guide is current.
+
 > **STATUS — SPECULATIVE v0 SYNTHESIS.** This document is a reasoned construction from the repo's current foundation, not an evidence-backed result. It is subordinate to [`GOAL.md`](../GOAL.md) and to `foundation/`; where it appears to conflict with them, they are authoritative. Every guideline it composes (G1–G15) is at status `proposed` — none is yet supported by systematic evidence. The whole document is a hypothesis the repo exists to test, not a finding it has. Every non-trivial claim is tagged inline: **(grounded)** = traces to a named attribute (A1–A17), a guideline (G1–G15), or a cited source; **(inferred)** = a reasoned extension of grounded material; **(speculative)** = a bet about AI capability or its trajectory. The phase decomposition itself is an inferential scaffold: the individual moves are mostly grounded, but their arrangement into an ordered arc is **(inferred)**, and several attribute tags it leans on are partially-closing — flagged in place rather than presented as fixed.
 
 ## The unchanged goal

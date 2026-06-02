@@ -40,7 +40,7 @@ If that reads like a lot of caveats — that is the point. The caveats are why t
 You bring a topic, or a project already underway; the repo gets you and your agent working inside the methodology. The technical part is light — mostly plugging in your agent:
 
 1. **Make a fresh repo** for your project (private is fine).
-2. **Drop in [`HANDOFF.md`](HANDOFF.md)** and hand the repo to your AI agent: *"Follow the scaffolding instructions in `HANDOFF.md`."* It sets up a light workspace — a project-state file, two thin ledgers, a short intake — and then stops. It will not do your research.
+2. **Drop in [`HANDOFF.md`](HANDOFF.md)** and hand the repo to your AI agent: *"Follow `HANDOFF.md`."* It sets up a light workspace — a project-state file, two thin ledgers, a short intake — and picks up its operating manual ([`methodology/agent-operating-guide.md`](methodology/agent-operating-guide.md)), which is what lets it *advise* you through the work. It will not do your research.
 3. **Fill the intake** — your question, what would convince you (and a skeptic) that an answer is right, and which capacities to protect versus hand off — then work. If you are mid-project, you start by telling your agent where you already are. Your research lives in your repo and stays yours.
 
 [`HANDOFF.md`](HANDOFF.md) is an explicit **v0**: the lightest version that carries the methodology, and itself something we are still learning to get right. If a piece does not earn its place, drop it — noticing what chafes is exactly the feedback this is being built from.
@@ -53,7 +53,7 @@ You bring a topic, or a project already underway; the repo gets you and your age
 
 - **[`GOAL.md`](GOAL.md)** — the charter. The why, the how, and the commitments everything else aligns to. Read first.
 - **[foundation/](foundation/)** — the diagnosis: the central argument (with the recombination-vs-innovation distinction in §3), the catalog of 17 AI attributes (5 clusters, each tagged structural / temporary / ambiguous), the implications, and the open questions.
-- **[methodology/](methodology/)** — the prescription: [`guidelines.md`](methodology/guidelines.md) (15 guidelines, all `proposed`, each tied to an attribute, an evidence trail, and a skill implication) and a speculative [`ai-native-research-process.md`](methodology/ai-native-research-process.md) (a `v0` sketch of the end-to-end process).
+- **[methodology/](methodology/)** — the prescription: [`guidelines.md`](methodology/guidelines.md) (15 guidelines, all `proposed`, each tied to an attribute, an evidence trail, and a skill implication), a speculative [`ai-native-research-process.md`](methodology/ai-native-research-process.md) (a `v0` sketch of the end-to-end process), and [`agent-operating-guide.md`](methodology/agent-operating-guide.md) — the agent's operating manual, the back-end counterpart to this README.
 - **[`HANDOFF.md`](HANDOFF.md)** — the tool: the file you give your agent to scaffold a workspace.
 - **[evidence/](evidence/)** — the substrate: interviews, experiments, observations, a self-study stream, a lab survey, and an annotated reading list.
 - **[log/](log/)** — the chronicle: what changed, when, and why.
