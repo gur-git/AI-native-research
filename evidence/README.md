@@ -10,6 +10,7 @@ The substrate. Every claim in `foundation/` and every guideline in `methodology/
 - **`lab-surveys/`** — surveys administered to a group of researchers (e.g., a lab) about their AI use. Distinct from `interviews/` (1:1) in being multi-respondent and, typically, ongoing — the entries are living documents that get regenerated as responses accumulate. First entry: `lab-surveys/ai-tool-use-2026/`.
 - **`experiments/`** — small structured self-experiments. Time-on-task with and without AI. Replication trials. Calibration tracking.
 - **`observations/`** — logs of real working sessions. The maintainer's own, primarily, but contributable.
+- **`self-study/`** — the maintainer's own AI-native practice observed as evidence: retrospective audits of existing working artifacts against the guidelines, and prospective instrumentation of selected guidelines. The first evidence stream opened to move guidelines off `proposed`. Explicitly n=1 and paired with the external streams (`lab-surveys/`, interviews) that carry the generalization questions.
 
 This structure is provisional. As evidence accumulates, the right shape will emerge — different categories, different file conventions, possibly per-project subdirectories. Expect this README to be revised.
 
