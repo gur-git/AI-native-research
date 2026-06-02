@@ -13,8 +13,9 @@ Every guideline therefore has a `Skill implication` field that names what capaci
 ## Files
 
 - **`guidelines.md`** — accumulated practices, each with status (`proposed`, `testing`, `adopted`, `retired`), addressed attribute(s), evidence trail, skill implication, practice description, success criteria, costs, and notes.
+- **`ai-native-research-process.md`** — a speculative `v0` synthesis of what the end-to-end AI-native research process might look like, composed from the foundation and the 15 (still `proposed`) guidelines, on the assumption that the goal of research is unchanged. It is deliberately *not* evidence-backed: a hypothesis to test against the evidence streams, with every claim tagged by epistemic status (`grounded`/`inferred`/`speculative`) and subordinate to the foundation. It is the connective picture the individual guidelines are pieces of, written early — at the maintainer's request — on the principle that the first imperfect version is more useful than the perfect-but-future one.
 
-That is the directory's content right now. As the methodology matures, more files will arrive — longer-form sections covering specific phases of research, worked examples, prompts, templates. None of those exist yet because none of them have earned their place.
+These are the directory's contents right now. The guidelines are the earned, normative core; the process draft is an explicitly-marked sketch that sits alongside them to be tested, not a set of new claims. As the methodology matures, more files will arrive — worked examples, prompts, templates — and the existing guidelines will earn their way from `proposed` toward `adopted` as evidence supports.
 
 ## Guidelines vs the log
 
