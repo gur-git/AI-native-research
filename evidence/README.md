@@ -7,6 +7,7 @@ The substrate. Every claim in `foundation/` and every guideline in `methodology/
 - **`reading-list.md`** — annotated list of papers, talks, posts, and interviews that shaped the foundation. The first entries are the sources used to draft `foundation/00-why-reimagine.md` and `foundation/01-ai-attributes.md`.
 - **`literature-notes/`** — deeper synthesis of bodies of literature that inform foundation claims. The first entry is `innovation-as-different-operation.md`, which synthesizes the BVSR / exploration-exploitation / novelty-search / effectuation lines into a working position on innovation that the foundation's §3 (`00-why-reimagine.md`) draws on. Future literature notes (e.g., on the Engelbart augmentation lineage, on creativity research more broadly) will live here.
 - **`interviews/`** — conversations with researchers about how they actually work with AI.
+- **`lab-surveys/`** — surveys administered to a group of researchers (e.g., a lab) about their AI use. Distinct from `interviews/` (1:1) in being multi-respondent and, typically, ongoing — the entries are living documents that get regenerated as responses accumulate. First entry: `lab-surveys/ai-tool-use-2026/`.
 - **`experiments/`** — small structured self-experiments. Time-on-task with and without AI. Replication trials. Calibration tracking.
 - **`observations/`** — logs of real working sessions. The maintainer's own, primarily, but contributable.
 
