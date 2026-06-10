@@ -31,7 +31,7 @@ The alignment between this repo and its downstream copies is now a built process
 
 ## Flagged, not done
 
-- **GOAL.md revisions** (posture wording, the "private while the pilot runs" line vs. the public pilot, stale counts) — proposed as text to the maintainer, applied only on approval.
+- **GOAL.md revisions** — proposed as text, approved by the maintainer and applied the same day (2026-06-10): the registry wording, the pilot-privacy clause reconciled to the public pilot workspace, and the Status refresh. The charter's argument, commitment, and operating choices were deliberately left untouched.
 - **The starter's GitHub template repo** — built locally at `ai-native-research-starter/`; creating the GitHub repo, ticking "Template repository," and setting the real `pinned_commit` are the maintainer's actions.
 - **Professor consent** before publication (unchanged from the morning's flag).
 - The pilot's own posture reconciliation now has its path: update 0001 walked by the pilot's agent.
