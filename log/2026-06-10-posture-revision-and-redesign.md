@@ -25,6 +25,10 @@ The methodology's operationalization therefore moved from **authorship rules to 
 
 **Retired:** G5 (post-mortem above). **Reframed:** G2 (cursor/store), G6/G7/G11 (records + review conversation), G10 (fetch-before-rely absorbed), G15 (inline provenance), G16 (interview vocabulary). **New, all `proposed`:** G20 (interview gates), G21 (named modes), G22 (onboarding contract). **Kept:** G1, G3, G4, G8, G9, G12, G13, G14, G17 ("authors" now explicitly = owns through conversation), G18, G19. Evidence for the new entries: the three 2026-06-10 evidence files.
 
+## The release process (added same day, at the maintainer's direction; reshaped once on his correction)
+
+The alignment between this repo and its downstream copies is now a built process with **one carrier of change: the update document**. The maintainer decides a change (evidence-first, in METHODOLOGY.md); the `release-update` skill drafts the document in [`updates/`](../updates/) (whole files as attachments in `NNNN-files/`); then the **starter template consumes the document first**, through the same `update` skill every user's workspace runs — the template application doubles as the document's test run, fixing the document while it is still editable. Versions and pins move as standing steps; the maintainer reviews and pushes (inquiry first, then template); documents are immutable once published. A first build of this process had the template synced as a separate motion from the §8 mapping; the maintainer corrected it to the one-carrier model the same day (the §8 check survives as a post-apply verification). Invariant: normative content originates only in METHODOLOGY.md, and every copy — template included — receives change through the same documents, so nothing drifts alone.
+
 ## Flagged, not done
 
 - **GOAL.md revisions** (posture wording, the "private while the pilot runs" line vs. the public pilot, stale counts) — proposed as text to the maintainer, applied only on approval.

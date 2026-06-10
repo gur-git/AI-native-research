@@ -1,10 +1,12 @@
 # Update 0001 — The gate-carried posture, modes, and the starter workspace
 
 ```
-date:          2026-06-10
-applies_from:  any pin at or before fc00c47 (2026-06-02)
-supersedes:    HANDOFF.md v0 and methodology/agent-operating-guide.md (both retired;
-               the methodology now lives in METHODOLOGY.md at the repo root)
+date:            2026-06-10
+applies_from:    any pin at or before fc00c47 (2026-06-02)
+cut_at:          708ce62cf72b96029186ab67fe3b480f6fe916e8   # the inquiry commit this release was cut from
+starter_version: 0.1.0
+supersedes:      HANDOFF.md v0 and methodology/agent-operating-guide.md (both retired;
+                 the methodology now lives in METHODOLOGY.md at the repo root)
 ```
 
 *For the researcher's agent: walk these items with your researcher in conversation, one at a time. Each is theirs to adopt, skip, or adapt; record skips in `context/records/`. When done, re-pin to the commit you fetched this from.*
@@ -27,7 +29,7 @@ supersedes:    HANDOFF.md v0 and methodology/agent-operating-guide.md (both reti
 
 **Ask your researcher.** "Keep your quiz flow as is, or adopt the closure rules (I close by default when value runs out; you can always override on record)?"
 
-**How to apply.** Extend the gate/quiz skill with the closure + override-record mechanics; log gate transcripts under `context/records/` (create it if absent).
+**How to apply.** The finished general form rides with this update: install [`0001-files/gate-SKILL.md`](0001-files/gate-SKILL.md) as `.claude/skills/gate/SKILL.md` (or merge its closure/override/record mechanics into your existing quiz skill, keeping your domain specifics). Log gate transcripts under `context/records/` (create it if absent).
 
 ## 3 · Named modes
 

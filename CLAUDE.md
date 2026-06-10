@@ -73,8 +73,9 @@ Four skills under `.claude/skills/` cover the core maintenance workflow. Use the
 - `update-foundation` — when new evidence refines, contradicts, or extends a foundation claim (including opening and closing questions in `03-open-questions.md`).
 - `add-guideline` — when an attribute plus accumulated evidence suggests a practice worth trying, or an existing practice's status should move. Targets the registry in `METHODOLOGY.md` §7.
 - `inquiry-status` — quick read of where the inquiry stands, including evidence accumulated against each open question.
+- `release-update` — release a researcher-facing methodology change as an update document in `updates/` (+ attachments for whole files), applied to the starter template as its **first consumer** (the document's test run) with versions and pins moved. One artifact, every copy: the template and users' workspaces consume the same document through the same process. The maintainer reviews and pushes; documents are immutable once published.
 
-Each skill, when invoked, also writes to `log/` so the chronicle stays current. Changes that affect researcher-facing behavior additionally get an update document in `updates/`.
+Each skill, when invoked, also writes to `log/` so the chronicle stays current.
 
 ## Things not to do
 
