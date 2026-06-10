@@ -1,9 +1,10 @@
 # evidence/self-study/
 
 The maintainer's own AI-native working practice, observed as evidence. This is the first
-**evidence stream** opened to move the methodology's guidelines off their all-`proposed`
-starting line (see [`../../methodology/guidelines.md`](../../methodology/guidelines.md), which
-states outright that none of the 15 guidelines rest on systematic evidence yet).
+**evidence stream** opened to move the methodology's practices off their all-`proposed`
+starting line (the registry in [`../../METHODOLOGY.md`](../../METHODOLOGY.md) §7, which
+states outright that none of its practices rest on systematic evidence yet; at this stream's
+opening the registry was `methodology/guidelines.md` with 15 entries — text in git history).
 
 ## Why this stream first
 

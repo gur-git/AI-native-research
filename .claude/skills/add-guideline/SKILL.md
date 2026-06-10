@@ -1,91 +1,66 @@
 ---
 name: add-guideline
-description: Draft a methodology guideline based on accumulated evidence and one or more foundation attributes. Each guideline starts as proposed, can move to testing, then adopted or retired. Use when the evidence is strong enough to warrant trying a practice, not just describing a problem.
+description: Add a practice to the registry in METHODOLOGY.md, or move an existing practice's status, based on accumulated evidence and one or more foundation attributes. Practices start as proposed, can move to testing, then adopted or retired. Use when evidence is strong enough to warrant trying a practice (or changing one's standing), not just describing a problem.
 ---
 
 # add-guideline
 
-Promote a methodological practice from "thing the foundation suggests" to "thing the methodology proposes trying." Guidelines live in `methodology/guidelines.md` and accumulate over time. Each one is tied to the attribute(s) it addresses and the evidence that motivated it.
+Promote a practice from "thing the evidence suggests" to "thing the methodology proposes trying" — or move an existing practice through its lifecycle. The registry lives in [`METHODOLOGY.md`](../../../METHODOLOGY.md) §7; it is the methodology's revisable layer, and this skill is how it changes.
 
 ## When to invoke
 
-- A foundation attribute (or cluster of attributes) has been stable for a while, and a practice that addresses it has emerged from evidence or a structured experiment.
+- A foundation attribute (or cluster) has been stable for a while, and a practice that addresses it has emerged from evidence.
 - Multiple pieces of evidence converge on the same recommended practice.
-- The maintainer or a collaborator has tried something and it appears to work, and is ready to be written up so it can be tested more deliberately.
+- Evidence justifies moving a practice's status (`proposed` → `testing` → `adopted`, or → `retired`).
 
-Do not invoke to add aspirational practices. A guideline must trace to evidence, not to what would be nice.
+Do not invoke to add aspirational practices. A practice must trace to evidence, not to what would be nice.
 
-## Inputs to gather
+## The bar for a new entry
 
-1. **Name** — short, imperative-mood title. Example: *"Score AI-generated hypotheses against your own ranking before showing the AI."*
-2. **Diagnostic motivation** — which attribute(s) does this address? Reference by number from `foundation/01-ai-attributes.md`.
-3. **The practice** — concretely, what does the researcher do? Step-level, not principle-level.
-4. **Evidence trail** — which evidence files motivated this? List by path.
-5. **Skill implication** — what capacity does this practice develop, preserve, or risk substituting? This is **required**. A guideline that cannot articulate what skill it builds is one that risks substituting for skill, and the methodology's central principle (empower, not replace — `foundation/00-why-reimagine.md` §5) cannot tolerate that. If you genuinely cannot answer this, do not add the guideline; revisit the foundation instead.
-6. **Status** — where is this guideline in its lifecycle?
-   - `proposed` — written down, not yet tested.
-   - `testing` — being trialed in real research work; data being collected.
-   - `adopted` — evidence supports it; promoted to the live methodology.
-   - `retired` — evidence contradicts it, or it was superseded by a better practice. Keep retired guidelines in the file; do not delete.
-7. **What success looks like** — how will the researcher know this guideline is helping? Specific, measurable where possible.
-8. **Known costs** — what does this guideline cost in time, attention, or friction? Honest accounting.
+Every entry must have all three, or it does not go in:
 
-## File to write
+1. **Attribute(s)** — which AI attribute(s) from `foundation/01-ai-attributes.md` it addresses, by number.
+2. **Evidence** — which evidence files motivated it, linked.
+3. **Skill implication** — what capacity the practice develops, preserves, or protects in the researcher. A practice that cannot articulate this risks substituting for skill, which the central principle cannot tolerate. If you genuinely cannot answer, do not add the practice; revisit the foundation instead.
 
-Append to `methodology/guidelines.md`. Each guideline is a section with this shape:
+## Entry format
 
-```markdown
-## G{N}: <Name>
+Append a row to the registry table in `METHODOLOGY.md` §7:
 
-**Status:** proposed | testing | adopted | retired (last reviewed YYYY-MM-DD)
-**Addresses attribute(s):** N, N
-**Evidence trail:** [file](../evidence/...), [file](../evidence/...)
-
-### Practice
-
-<step-level description>
-
-### What success looks like
-
-<observable outcome>
-
-### Known costs
-
-<honest accounting>
-
-### Notes
-
-<edge cases, things you've already learned not to do, related guidelines>
+```
+| G{N} | **<Imperative name.>** <One-to-three-sentence practice statement, with the skill it protects evident.> (A{n}, A{n}) | proposed | New YYYY-MM-DD; evidence: <links>. |
 ```
 
-Number guidelines sequentially (G1, G2, ...) and never reuse a number, even if the guideline is retired.
-
-## After writing
-
-Append a log entry:
-
-```markdown
-## Guideline added
-
-**Number:** G{N}
-**Name:** <name>
-**Status:** proposed
-**Addresses:** attribute N (and N)
-**Evidence:** [file paths]
-**One-line motivation:** <why now>
-```
+Numbers are sequential and never reused, even after retirement. If the practice needs more explanation than a registry row carries, the explanation belongs in the relevant section of `METHODOLOGY.md` (§2–§6), with the row pointing at it — not in a parallel document.
 
 ## Status transitions
 
-When a guideline's status changes, that is also a foundation/methodology event and should be logged. Specifically:
+Each transition is logged, and statuses move only on evidence:
 
-- `proposed → testing`: log when active trial begins, and what data is being collected.
-- `testing → adopted`: log the supporting evidence (link to experiment files in `evidence/experiments/`).
-- `testing → retired` or `adopted → retired`: log the contradicting evidence and write a short post-mortem.
+- `proposed` → `testing`: a deliberate trial is running; name what data is being collected and where.
+- `testing` → `adopted`: link the supporting evidence.
+- any → `retired`: keep the row, mark the status, and write a one-line post-mortem in the Disposition column linking the fuller reasoning in the log. The methodology earns its credibility by retiring practices that don't survive contact with reality.
+
+## After writing
+
+1. **Log entry** in `log/YYYY-MM-DD-{topic}.md`:
+
+   ```markdown
+   ## Registry change
+
+   **Practice:** G{N} — <name>
+   **Change:** added at proposed | status moved X → Y
+   **Addresses:** attribute(s) N
+   **Evidence:** [file paths]
+   **One-line motivation:** <why now>
+   ```
+
+2. **If the change affects researcher-facing behavior** (what an agent in a workspace should do differently), draft an update document in `updates/` per its README conventions, and note that the starter needs a corresponding revision.
+
+3. **Offer the open-questions move** if the change bears on one (per `CLAUDE.md` §Coherence and revision).
 
 ## Reminders
 
-- A guideline that addresses a `temporary` attribute (one likely to be solved by AI capability improvements) should be flagged as such — its useful life may be short.
-- A guideline whose evidence is one anecdote stays at `proposed` indefinitely until either (a) more evidence accumulates or (b) a structured trial promotes it to `testing`.
-- The methodology earns its credibility by retiring guidelines that don't survive contact with reality. Don't be precious about removals.
-- Each guideline should be small enough to evaluate. A guideline that says "do good research" is not a guideline.
+- A practice addressing a `temporary` attribute should be flagged as such — its useful life may be short.
+- A practice whose evidence is one anecdote stays at `proposed` indefinitely until more evidence accumulates or a structured trial promotes it.
+- Each practice should be small enough to evaluate. "Do good research" is not a practice.

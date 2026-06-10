@@ -32,7 +32,7 @@ Each file ends with a *Last revised* footnote that points to the date and motiva
 **In scope:** claims about AI's structural properties, claims about how research is structurally exposed to those properties, the central mindset shift the methodology operationalizes, gestures toward what the methodology will need to do, open questions.
 
 **Out of scope here, lives elsewhere:**
-- Specific practices and guidelines → `../methodology/guidelines.md`
+- Specific practices → the registry in `../METHODOLOGY.md` §7
 - Source material that shaped the foundation → `../evidence/reading-list.md`
 - Literature syntheses that inform foundation claims → `../evidence/literature-notes/`
 - Records of how the foundation has changed and why → `../log/`

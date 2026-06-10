@@ -1,6 +1,6 @@
 # Pilot: snn-research
 
-The inquiry's first pilot — a real research effort (two early-career researchers, including the maintainer, working toward a contribution in spiking neural networks / neuromorphic computing) run in its own workspace at https://github.com/galfran-bgu/snn-research, scaffolded from this repo's [`HANDOFF.md`](../../HANDOFF.md) on 2026-06-03 at pin `fc00c47`.
+The inquiry's first pilot — a real research effort (two early-career researchers, including the maintainer, working toward a contribution in spiking neural networks / neuromorphic computing) run in its own workspace at https://github.com/galfran-bgu/snn-research, scaffolded from this repo's HANDOFF.md v0 on 2026-06-03 at pin `fc00c47` (HANDOFF retired 2026-06-10 in favor of the starter workspace; text in git history).
 
 Per the charter ([`GOAL.md`](../../GOAL.md) §What advancing the inquiry looks like), the research itself stays in the pilot's repo and is theirs; what lives here is the documentation of the methodology applied to it. This record is provisional — when the repo is published it is removed or recast so a reader can see what conclusions rest on without reproducing the raw record.
 
@@ -13,11 +13,12 @@ Two channels, both recorded under `evidence/` (this directory only indexes them)
 
 The pilot's own `FRICTION.md` (issue/PR route prescribed by the handoff) remains the researcher-owned channel; as of 2026-06-10 it has not yet been exercised, and the background audits stand in until it is.
 
-## Open items the pilot has put on the inquiry's table
+## What the pilot has changed so far
 
-Tracked here so they are not lost between audits; the evidence files above carry the substance.
+The pilot's first month produced the methodology's largest revision: the 2026-06-10 posture change (advise-don't-author → gate-carried, AI as junior colleague), the retirement of G5, the gates/modes/onboarding design, and the starter-workspace product — reasoning in the [log](../../log/2026-06-10-posture-revision-and-redesign.md), evidence in the three files above (audit, professor interview, [team meeting](../../evidence/interviews/2026-06-10-pilot-team-meeting.md)).
 
-- The team's working-mode choice ("AI-as-full-team", 2026-06-05) versus the methodology's advise-don't-author posture — reconciliation deferred on the pilot side; to be discussed with the team before the inquiry concludes anything from it.
-- Zero adoption of the two retrospective ledgers; whether the friction is trigger/ownership rather than cost.
-- The re-cut interface (the pilot's own locked-gate phases kept over the offered path, rich CLAUDE.md, transient intake, the handoff file proving redundant once CLAUDE.md carried the pin) as input to a possible HANDOFF v1. (The nine-discipline checklist is HANDOFF v0's own design, which the pilot kept — not a pilot re-cut.)
-- A charter reconciliation for the maintainer: [`GOAL.md`](../../GOAL.md) §What advancing the inquiry looks like describes the pilot's repo as "private while the pilot runs"; the team's workspace is public. Whether to revise the charter (its status count is also a revision behind) or the practice is a deliberate GOAL decision, noted here rather than made silently.
+## Open items
+
+- **The pilot's own posture reconciliation** (deferred on their side since 2026-06-05) now has its path: their agent walks [update 0001](../../updates/0001-gates-posture-and-starter.md), which resolves it in the direction the team already chose.
+- **Q13 measurement**: the pilot's gate records over time, checked against the supervising professor's own tracking, are the planned test of the gate-carried bet.
+- A charter reconciliation for the maintainer: [`GOAL.md`](../../GOAL.md) describes the pilot's repo as "private while the pilot runs"; the team's workspace is public. A deliberate GOAL decision, noted rather than made silently (proposed text pending with the maintainer).

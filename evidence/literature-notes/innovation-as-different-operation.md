@@ -62,7 +62,7 @@ This connects directly to the empower-not-replace mindset in [`../../foundation/
 
 ## 4. What the methodology has to do differently
 
-This is gesture, not commitment, in the spirit of [`../../foundation/02-implications.md`](../../foundation/02-implications.md). Concrete practices belong in `../../methodology/guidelines.md` once evidence supports them.
+This is gesture, not commitment, in the spirit of [`../../foundation/02-implications.md`](../../foundation/02-implications.md). Concrete practices belong in the registry in `../../METHODOLOGY.md` once evidence supports them.
 
 **Distinguish recombination work from innovation work in the workflow.** Most current "AI-for-research" practice does not. A literature scan, a routine analysis, a fluent draft of a known argument — recombination, AI-cheap, judgment-heavy. A new framing, a method that did not exist, a hypothesis that nobody has stated — innovation, AI-partial, taste-heavy. The methodology should have different practices for the two, and explicit awareness of which kind of work is happening at any moment.
 

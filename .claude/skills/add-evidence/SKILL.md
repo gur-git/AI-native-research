@@ -27,7 +27,8 @@ Ask the user (or determine from context):
 5. **Confidence** — how strongly the evidence supports each claim: `strong`, `moderate`, `weak`, `anecdotal`. Be honest. A single conversation is rarely "strong."
 6. **Raw material link** — if applicable: transcript, recording, code, paper URL, working-session log.
 7. **Related foundation attribute(s)** — which AI attribute(s) from `foundation/01-ai-attributes.md` does this bear on? List by number.
-8. **Implications** — what, if anything, does this suggest about the foundation or methodology? Mark as a *suggestion*, not a conclusion. Conclusions are drawn separately by `update-foundation` or `add-guideline`.
+8. **Related open question(s)** — which open questions from `foundation/03-open-questions.md` does this bear on? List by number. This field is how the open questions stay confronted with evidence rather than going stale.
+9. **Implications** — what, if anything, does this suggest about the foundation or methodology? Mark as a *suggestion*, not a conclusion. Conclusions are drawn separately by `update-foundation` or `add-guideline`.
 
 ## File to write
 
@@ -42,6 +43,7 @@ source: <name or citation>
 date: YYYY-MM-DD
 confidence: strong | moderate | weak | anecdotal
 related_attributes: [N, N, ...]
+related_questions: [N, N, ...]
 raw_material: <url or path, or "none">
 ---
 
@@ -75,6 +77,8 @@ Append a one-line entry to today's log file (`log/YYYY-MM-DD-{topic}.md` if it e
 ```
 
 If today does not yet have a log file, create it with a brief header explaining what shifted today.
+
+Then **confront the open questions**: for each question this evidence bears on, say so explicitly in conversation and offer the move — *"this seems to answer QN / narrow QN / contradict QN — close it, revise it, or leave it?"* and *"this surfaces an uncertainty no question tracks — open one?"* The maintainer decides; actual changes to `foundation/03-open-questions.md` go through `update-foundation`. Offering is mandatory; acting is not.
 
 ## Reminders
 

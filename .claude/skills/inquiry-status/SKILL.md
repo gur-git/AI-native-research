@@ -20,14 +20,14 @@ Compile the current state of the inquiry into a short, structured report. The po
 
 2. **Read recently added evidence.** List the last 5 entries across `evidence/interviews/`, `evidence/experiments/`, `evidence/observations/`. For each, give: type, date, source, the headline claim, confidence label.
 
-3. **Tally guidelines by status.** Read `methodology/guidelines.md` and count guidelines in each status: `proposed`, `testing`, `adopted`, `retired`. List the names of guidelines in `testing` (these are the active trials).
+3. **Tally registry practices by status.** Read the registry in `METHODOLOGY.md` §7 and count practices in each status: `proposed`, `testing`, `adopted`, `retired`. List the names of practices in `testing` (these are the active trials).
 
-4. **List open questions.** Read `foundation/03-open-questions.md` and list each currently-open question with a one-line summary.
+4. **Confront the open questions.** Read `foundation/03-open-questions.md`, then grep `evidence/` for `related_questions` references and Q-number mentions. For each open question report: a one-line summary, and what evidence (if any) has accumulated against it since it was opened. For any question where the accumulated evidence looks like it answers, narrows, or contradicts the question — say so and offer the open/close move explicitly (the maintainer decides; `update-foundation` executes).
 
 5. **Surface stale items.** Note:
-   - Guidelines in `proposed` for more than 90 days with no evidence added → these may be aspirational.
+   - Practices in `proposed` for more than 90 days with no evidence added → these may be aspirational.
    - Foundation attributes whose last revision date is older than the relevant evidence dates → may need an `update-foundation` pass.
-   - Open questions older than 180 days with no evidence touching them → consider whether they're still relevant.
+   - Open questions with no evidence touching them for 180+ days → consider whether they're still the right questions.
 
 ## Output format
 
@@ -46,16 +46,16 @@ Print a single markdown report:
 - YYYY-MM-DD [interview] <source> — <headline claim> (confidence: X)
 - ...
 
-## Guidelines
+## Practice registry
 
 - Proposed: N
 - Testing: N (<names>)
 - Adopted: N
 - Retired: N
 
-## Open questions
+## Open questions (with evidence accumulated)
 
-- Q1: <one-line summary>
+- Q1: <one-line summary> — <evidence touching it, or "none since opened">
 - ...
 
 ## Stale items (action suggested)

@@ -52,6 +52,14 @@ Do not invoke for typos, formatting, or rewording without substantive change. Us
    **Reason:** <one-paragraph explanation of why the evidence motivates this change>
    ```
 
+## Opening and closing open questions
+
+`03-open-questions.md` is a living file and this skill is its custodian:
+
+- **Opening:** a new question needs a name, the uncertainty stated plainly, and a **"what would resolve this"** paragraph — a question with no resolution path is a worry, not a question.
+- **Closing:** move the question to the `Resolved` section (never delete), append what resolved it (evidence links) and the answer in one or two sentences, and check whether the resolution should propagate (a foundation claim to revise, a registry status to move).
+- Both moves are typically *offered* by the agent during other work (per `CLAUDE.md` §Coherence and revision) and *decided* by the maintainer; this skill executes the decision and logs it.
+
 ## Reminders
 
 - The foundation is allowed to change. Pretending it is settled when evidence shifts is the bigger risk.

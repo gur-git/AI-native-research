@@ -39,20 +39,29 @@ Three constraints follow:
 Every addition is judged against the whole, not only on its own merits. New material — and new evidence when it arrives — must leave the repo's story coherent: a tool, guideline, or claim that contradicts another is a defect to reconcile, not a parallel truth to file beside it. Two practices keep that affordable:
 
 - **One source, many views.** Don't restate a claim in several places. A tool or guide should be a *view on* the foundation and methodology, deriving from them, so that when understanding shifts the source changes once and the views follow — instead of copies drifting apart.
-- **Mark the evidence level; stay revisable.** Much of what is written now rests on reading rather than the repo's own evidence. That is acceptable for now, provided it is marked as such (the `grounded` / `inferred` / `speculative` tagging used in `methodology/ai-native-research-process.md` is the model). When the pilot returns experience, the repo adapts to it; revision is expected, not a failure.
+- **Mark the evidence level; stay revisable.** Much of what is written now rests on reading rather than the repo's own evidence. That is acceptable for now, provided it is marked as such (status tags on every practice in `METHODOLOGY.md`'s registry; `grounded`/`inferred`/`speculative` tagging on reasoning). When the pilot returns experience, the repo adapts to it; revision is expected, not a failure.
+- **Keep the open questions alive.** Whenever work in this repo touches the territory of an open question (`foundation/03-open-questions.md`) — new evidence bears on one, a finding seems to answer one, a new uncertainty surfaces — the agent proactively offers to open or close a question. The maintainer decides; resolved questions move to the Resolved section with what resolved them. This is a standing duty, not a request-driven one.
 
 ## Structure
 
 ```
+METHODOLOGY.md — the prescription, in one document: principles, posture, process, gates,
+                 modes, and the practice registry (status-tagged, evidence-linked), plus
+                 the mapping to the starter workspace.
 foundation/    — the diagnosis. why research must be reimagined; what about AI forces this.
-methodology/   — the prescription. starts mostly empty; grows as evidence accumulates.
 evidence/      — the substrate. interviews, experiments, observations, reading.
 log/           — the chronicle. what happened in the inquiry, when, and why.
-case-studies/  — the pilot. the record of real research the methodology is applied to, and what is learned from it.
+case-studies/  — the pilot(s). records of real research the methodology is applied to,
+                 and the channels they feed back through.
+updates/       — the downstream channel: versioned update documents, addressed to
+                 researchers' agents, describing methodology changes and how to walk
+                 a researcher through adopting them.
 ```
 
-`foundation/` and `methodology/` are normative (claims about what is and what to do).
+`METHODOLOGY.md` and `foundation/` are normative (claims about what is and what to do).
 `evidence/` and `log/` are descriptive (records of what was observed and what happened).
+
+The researcher-facing artifact is the **starter workspace** — a separate template repo that is the executable view of `METHODOLOGY.md` (its §8 maps every starter element to the practice it implements). When the methodology changes in ways researchers should hear about, the change ships as an update document in `updates/`. Nothing normative is stated only in the starter; the starter derives.
 
 The repo's intellectual honesty depends on the descriptive side feeding the normative side, in that direction, with a paper trail.
 
@@ -60,16 +69,16 @@ The repo's intellectual honesty depends on the descriptive side feeding the norm
 
 Four skills under `.claude/skills/` cover the core maintenance workflow. Use them rather than doing these operations ad-hoc.
 
-- `add-evidence` — when a new interview, experiment, observation, or noteworthy paper has come in.
-- `update-foundation` — when new evidence refines, contradicts, or extends a foundation claim.
-- `add-guideline` — when an attribute plus accumulated evidence suggests a methodological practice worth trying.
-- `inquiry-status` — quick read of where the inquiry stands.
+- `add-evidence` — when a new interview, experiment, observation, or noteworthy paper has come in. Includes confronting the open questions: every evidence file names the questions it bears on, and the skill prompts an open/close offer when one is touched.
+- `update-foundation` — when new evidence refines, contradicts, or extends a foundation claim (including opening and closing questions in `03-open-questions.md`).
+- `add-guideline` — when an attribute plus accumulated evidence suggests a practice worth trying, or an existing practice's status should move. Targets the registry in `METHODOLOGY.md` §7.
+- `inquiry-status` — quick read of where the inquiry stands, including evidence accumulated against each open question.
 
-Each skill, when invoked, also writes to `log/` so the chronicle stays current.
+Each skill, when invoked, also writes to `log/` so the chronicle stays current. Changes that affect researcher-facing behavior additionally get an update document in `updates/`.
 
 ## Things not to do
 
-- Don't write methodology guidelines that aren't supported by at least one attribute and one piece of evidence.
+- Don't add a practice to the registry that isn't supported by at least one attribute and one piece of evidence, and can't name the skill it develops or protects.
 - Don't add foundation claims without a citation or a clearly-marked "speculative" tag.
 - Don't promote — describe. Avoid words like "revolutionary," "powerful," "game-changing."
 - Don't claim AI capabilities the repo hasn't verified. Cite the source. If the source is the maintainer's own observation, log it as such.
@@ -85,6 +94,6 @@ When in doubt about tone, the standard is: **the kind of writing a careful resea
 
 ## Status
 
-Foundation v1 as of 2026-05-06: five documents (`00`–`04`) covering diagnosis, attributes catalog, innovation deep-dive, implications, and open questions. The methodology has 19 guidelines, all at status `proposed`, plus a speculative `v0` synthesis of the end-to-end process ([`methodology/ai-native-research-process.md`](methodology/ai-native-research-process.md)) — explicitly a hypothesis to test, not evidence-backed guidance. Evidence collection has begun beyond the reading list: a self-study stream ([`evidence/self-study/`](evidence/self-study/)), a lab survey ([`evidence/lab-surveys/`](evidence/lab-surveys/), awaiting data), and the pilot phase's first interview and observation entries (2026-06-10).
+Foundation v1 as of 2026-05-06: five documents (`00`–`04`) covering diagnosis, attributes catalog, innovation deep-dive, implications, and open questions. On 2026-06-10, on the first pilot-phase evidence (a professor interview, a pilot workspace audit, and a pilot-team meeting), the methodology was consolidated into [`METHODOLOGY.md`](METHODOLOGY.md) and revised: the posture moved from advise-don't-author to **gate-carried** (AI as junior colleague; interview-gates carry verification and the second output; registry entries G20–G22), G5 became the registry's first retirement, and the bet behind the revision is tracked as open question Q13. The `methodology/` folder and `HANDOFF.md` retired into it (texts in git history).
 
-The repo is in its first user-facing phase. Its first pilot — and first user — is a real research project (the maintainer's own; documented in [`case-studies/snn-research/`](case-studies/snn-research/)), against which the methodology is applied and from which the repo learns through two standing channels: background audits of the pilot's public workspace, and conversations with the pilot team and with their supervising professor about how research is classically conducted. The first pilot-phase evidence produced guidelines G16–G19 (an explain-back knowledge gate, a five-part research proposition, an MVP-first execution posture, and early parallel expert review — classical practices adapted AI-natively, not copied). No guideline status has changed on the strength of the pilot yet; that waits for its evidence.
+The repo is in its first user-facing phase. Its first pilot — and first user — is a real research project (the maintainer's own; documented in [`case-studies/snn-research/`](case-studies/snn-research/)), feeding back through standing channels: background audits of the pilot's workspace, conversations with the pilot team, and conversations with their supervising professor about how research is classically conducted. The researcher-facing artifact under assembly is the starter workspace (the executable view of `METHODOLOGY.md`); the `updates/` channel carries methodology changes to existing workspaces.
