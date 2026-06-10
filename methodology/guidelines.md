@@ -1,8 +1,8 @@
 # Methodology guidelines
 
-Accumulated practices the inquiry proposes, is testing, or has adopted. Each guideline traces to the foundation attribute(s) it addresses, the evidence that motivated it, and an explicit *skill implication* — the capacity the practice is meant to develop or preserve in the researcher. The skill-implication field is not optional; a guideline that cannot say what skill it builds is one that risks substituting for skill, and the methodology's central principle (`foundation/00-why-reimagine.md` §5: empower, not replace) cannot tolerate that.
+Accumulated practices the inquiry proposes, is testing, or has adopted. Each guideline traces to the foundation attribute(s) it addresses, the evidence that motivated it, and an explicit *skill implication* — the capacity the practice is meant to develop or preserve in the researcher. The skill-implication field is not optional; a guideline that cannot say what skill it builds is one that risks substituting for skill, and the methodology's central principle (`foundation/00-why-reimagine.md` §7: empower, not replace) cannot tolerate that.
 
-The guidelines below are first-pass drafts derived from the foundation as written through 2026-05-06. None of them are based on systematic evidence yet; all start at status `proposed`. Promotion to `testing` requires deliberate trial; promotion to `adopted` requires evidence that the trial worked. Use the [`add-guideline`](../.claude/skills/add-guideline/SKILL.md) skill for additions and the [`update-foundation`](../.claude/skills/update-foundation/SKILL.md) skill when status changes.
+G1–G15 are first-pass drafts derived from the foundation as written through 2026-05-06; later guidelines arrive as evidence accumulates (G16–G19, from the first professor interview and the first pilot audit, 2026-06-10). All are at status `proposed`; none rest on systematic evidence yet. Promotion to `testing` requires deliberate trial; promotion to `adopted` requires evidence that the trial worked. Use the [`add-guideline`](../.claude/skills/add-guideline/SKILL.md) skill for additions and the [`update-foundation`](../.claude/skills/update-foundation/SKILL.md) skill when status changes.
 
 ---
 
@@ -449,10 +449,120 @@ This is the simplest guideline in the list. It is also the one most likely to la
 
 ---
 
+### G16: Gate knowledge-building with an explain-back check
+
+**Status:** proposed (last reviewed 2026-06-10)
+**Addresses attribute(s):** A13, A16 (cluster IV, V); A5, A7, A8 shape the practice's caveats
+**Evidence trail:** [2026-06-10 professor interview](../evidence/interviews/2026-06-10-professor-classical-research-steps.md), [2026-06-10 pilot workspace audit](../evidence/observations/2026-06-10-pilot-workspace-audit.md)
+**Skill implication:** Develops field fluency at the level the professor's account names — knowing the field well enough to make insightful observations and hold meaningful conversations — and the articulation skill of explaining a concept precisely. It also produces a *measured* (not felt) record of the second output: each passed or failed explain-back is a data point about the researcher's actual understanding, which neither the researcher's own sense (A13) nor AI's fluency (A16) supplies.
+
+#### Practice
+
+On a regular cadence (weekly is the classical default), and at the close of any unit of knowledge-building the researcher will rely on: the researcher explains the concept to the agent in their own words, without the source notes open. The agent probes with understanding-questions rather than recall-questions — at least one "work it out" derivation or application, at least one "why / what breaks if…" question, nothing answerable by pattern-matching the researcher's own notes — withholds the answers until the researcher commits to theirs, then grades honestly: correct / partial / wrong, with the correction and where it comes from. Two integrity rules, taken from the pilot's working version: a generous pass defeats the purpose, and understanding is never marked verified by any route other than a passed check.
+
+Where the concept sits at the frontier (recent, niche), the grader is itself suspect (A8, A5): corrections there must be grounded in a source the researcher can open, not in the grader's paraphrase. A failed check is also signal about the learning artifact — if the miss traces to an unclear note, fix the note too.
+
+The classical form of this check was a scarce resource: a professor's weekly attention. The AI-native adaptation makes the prober always available, which moves the cadence from "weekly, with the professor" to "at every closure the researcher cares about" — and frees the scarce professor-time for the checks only a human expert can run (G19).
+
+#### What success looks like
+
+Field knowledge the researcher relies on carries a trail of passed checks. Failed checks happen and are logged — a record with no failures indicates a generous grader (A7), not mastery. Over months, the record gives the researcher (and any mentor) a measured trajectory of the second output. The pilot's first recorded instance: a steady-state derivation that failed on first attempt and passed on re-attempt after a targeted hint — a real gap that fluent note-reading had not surfaced (one caught gap across two quiz events; signal, not validation).
+
+#### Known costs
+
+A check per closed concept adds real time to knowledge-building. The deeper cost is honesty under sycophancy pressure: the agent's grading drifts generous by default (A7), and the researcher is the one who has to demand strictness from their own grader.
+
+#### Notes
+
+Two convergent sources point at this practice: the supervising professor's classical mentoring instrument (a student explains a new concept weekly; he corrects inaccuracies; he reports it as an effective progress tracker) and the pilot's teach→quiz gate, which the team kept even after relaxing the methodology's authoring posture. The convergence is not full independence — the professor supervises that same pilot team, and both sources are recorded via the maintainer — so this counts as one practice seen from two angles, not two independent confirmations. It is a candidate answer to Q11 (how to track researcher development) and pairs with G6 — the check record is exactly the kind of entry the capability log wants. Authorship of the record, to keep the G6 ownership rule intact: the agent reports the grade and may transcribe the Q&A alongside the learning artifact (a transcript, not a self-assessment); the dated pass/fail entry in the capability log itself is written by the researcher, never the agent. Direction matters: G3 verifies *AI output* from an independent source; this guideline verifies *the researcher's understanding*, with the agent as prober and grader. The pilot's version cited G3 for legitimacy because no guideline owned the practice; this one now owns it.
+
+---
+
+### G17: Converge the survey into a researcher-authored five-part research proposition
+
+**Status:** proposed (last reviewed 2026-06-10)
+**Addresses attribute(s):** A4, A7 (cluster I, II); A8 governs one part
+**Evidence trail:** [2026-06-10 professor interview](../evidence/interviews/2026-06-10-professor-classical-research-steps.md)
+**Skill implication:** Develops problem formulation — the framing skill the charter names among those the research job is judged on. Writing the system model and problem formulation oneself is where the researcher's grasp of *what exactly is being asked* gets built; accepting an AI draft of them is where it silently doesn't.
+
+#### Practice
+
+When the survey-then-focus motion approaches commitment, converge it into a written research proposition with five parts (the classical structure, per the professor's account): (1) motivation and background; (2) system model; (3) problem formulation; (4) existing approaches; (5) the proposition itself — what the research will do and how it will contribute.
+
+Division of labor: AI maps terrain for (1) and (4) under the terrain-map discipline (G13), with every claim in (4) source-walked per G10 — existing-approaches summaries are where frontier hallucination (A8) does the most damage, and a contribution claim built on a hallucinated gap collapses at review. The researcher authors (2), (3), and (5), phrasing included — accepting AI's phrasing of the problem is the anchoring trap (A7) the Context phase already warns about, applied at the highest-stakes artifact. Before adopting the proposition, attack it per G9: what would falsify it? what would a hostile reviewer say? is (5) genuinely distinguishable from the approaches in (4)? Version-control the proposition in the project state (G2); successive revisions of it are themselves a direction-and-outcome trail (G11).
+
+#### What success looks like
+
+The transition from surveying to executing happens through an explicit artifact rather than by drift. The researcher can hand the proposition to a skeptical expert (G19) and defend each part. Revisions are deliberate and logged, not silent.
+
+#### Known costs
+
+Writing the proposition is slower than letting direction accrete implicitly — that is the point, but the time is real. The five-part structure comes from one field culture (EE / signal processing); other fields may need a different decomposition, and the structure should bend to the field rather than the reverse.
+
+#### Notes
+
+This gives the phase 2→3 transition (survey-then-focus → design) a concrete exit artifact, which the process sketch previously lacked. Single-source evidence (one professor's account, relayed secondhand); the structure is offered as a starting shape, not a standard.
+
+---
+
+### G18: Build a minimum viable version early; iterate against reality
+
+**Status:** proposed (last reviewed 2026-06-10)
+**Addresses attribute(s):** A1, A3 (cluster I); A9, A17 bound it
+**Evidence trail:** [2026-06-10 professor interview](../evidence/interviews/2026-06-10-professor-classical-research-steps.md) (the step itself; the AI-regime rationale is the maintainer's extension, marked as such there)
+**Skill implication:** Develops end-to-end system thinking and the craft of designing iterations against observed behavior rather than against plans. Preserved against a named risk: delegating the whole build is exactly the whole-task outsourcing G5 refuses — the MVP is a vehicle for the researcher's contact with reality, not a deliverable to order from the agent.
+
+#### Practice
+
+Once a research proposition exists (G17), bias toward building the smallest end-to-end version of the research artifact that can confront reality — a toy model, a minimal pipeline on a small dataset, a sketched proof of a special case — rather than specifying the full study up front. The classical argument for waterfall planning — building is expensive, so plan exhaustively first — weakens in the AI regime: the recombination parts of a build (boilerplate, plumbing, standard baselines) are cheap to delegate (A3 carries the cost claim; A1 is what makes those parts "known elements" AI assembles reliably).
+
+Three disciplines bound the practice. Classify before delegating (G4): the load-bearing modeling choices — what is simplified away and why, what the MVP must demonstrate to count — stay the researcher's; an MVP whose simplifications the researcher cannot defend is a demo, not research. Decide up front what the MVP would have to show to support or falsify the proposition — G9 applied at MVP scale. And carry the A9 caveat: cheap building multiplies candidate outputs while the verification bill stays unchanged; an unverified MVP result is a candidate, not a finding.
+
+#### What success looks like
+
+The proposition meets reality within weeks, not months. Wrong directions die cheaply on MVP evidence, and the death is logged (G11). For each MVP, the researcher can name what they built and decided themselves versus what was delegated.
+
+#### Known costs
+
+MVPs tempt scope drift in both directions: polishing the toy instead of answering the question, and trusting toy-scale results beyond their reach. The agile cadence also pulls the A9 verification load earlier in the project rather than reducing it.
+
+#### Notes
+
+The MVP is also what makes early expert review (G19) concrete — experts react more usefully to a running thing than to an abstract plan. Single-source evidence plus a maintainer inference; domain generality untested (Q12 applies — "build small first" means different things in theory, wet-lab, and fieldwork).
+
+---
+
+### G19: Put the work in front of expert humans early, and in parallel
+
+**Status:** proposed (last reviewed 2026-06-10)
+**Addresses attribute(s):** A6, A8 (cluster II); A7
+**Evidence trail:** [2026-06-10 professor interview](../evidence/interviews/2026-06-10-professor-classical-research-steps.md). The [pilot workspace audit](../evidence/observations/2026-06-10-pilot-workspace-audit.md) corroborates the *existence of the mentor channel* (the pilot reserves its research-question commitment to a decision made with the supervising mentor); the early-and-parallel shape of this guideline rests on the interview alone
+**Skill implication:** Develops presenting work-in-progress, defending it under live questioning, and converting expert critique into design changes — the respond-to-review skills, exercised early and repeatedly instead of once at submission time. Also maintains the mentorship channel the apprenticeship classically runs on, which AI does not substitute for.
+
+#### Practice
+
+From the first MVP (G18) onward, and in parallel with continuing the research — not as a stop-and-wait stage — put the work in front of expert humans and gather their reactions: the supervising mentor, domain experts, a colleague who has not seen the AI sessions. In an AI-saturated workflow this is a structural necessity, not a courtesy: AI critiques share the generator's blind spots to some degree (A6), and AI is weakest exactly at the frontier where the work is novel (A8) — the expert human is the critic whose independence is categorical and whose strength peaks where AI's fails.
+
+AI assists the periphery: adapting the material to the audience (A2), surfacing which objections map to known weaknesses. The researcher presents and defends in their own person — an AI-drafted defense of a position the researcher has not reasoned to is the respond-to-review replacement failure, arrived at early. Log what the experts said against what AI critiques had said (G11): the divergence is a running measure of what AI review misses in this domain.
+
+#### What success looks like
+
+Expert feedback arrives early enough to redirect the work cheaply. The record shows expert objections no AI critique had surfaced — and occasionally the reverse, which is calibration data too (G7).
+
+#### Known costs
+
+Expert attention is scarce and asking for it has social cost; the practice spends real relationship capital and must be paced accordingly. Preparing work to be shown is overhead beyond doing the work.
+
+#### Notes
+
+Extends G3's "human review" verification mode from outputs to direction: G3 verifies a result; this keeps the *project* under independent expert pressure. It is a partial answer to Q7 (where selective retention comes from for a researcher without a full research-group culture — the mentor channel is part of it) and gives the process sketch's collaboration gap its first concrete mechanism.
+
+---
+
 ## Retired guidelines
 
 *(none yet)*
 
 ---
 
-*Last revised 2026-05-06. Initial population of 15 guidelines drawn from the foundation as written through 2026-05-06. All start at status `proposed`. None are based on systematic evidence yet; promotion requires deliberate trial and observed signal.*
+*Last revised 2026-06-10. Initial population of 15 guidelines drawn from the foundation as written through 2026-05-06; G16–G19 added 2026-06-10 from the first evidence of the pilot phase (a professor interview on the classical research steps, adapted AI-natively, and the first pilot workspace audit). All at status `proposed`. None are based on systematic evidence yet; promotion requires deliberate trial and observed signal.*

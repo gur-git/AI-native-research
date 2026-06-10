@@ -1,6 +1,6 @@
 # methodology/
 
-The prescription. This is where the methodology lives — practices the inquiry proposes, is testing, has adopted, or has retired. Unlike the foundation, the methodology is meant to grow over time. The first 15 guidelines were drafted alongside the foundation; the rest will arrive as evidence accumulates.
+The prescription. This is where the methodology lives — practices the inquiry proposes, is testing, has adopted, or has retired. Unlike the foundation, the methodology is meant to grow over time. The first 15 guidelines were drafted alongside the foundation; the rest arrive as evidence accumulates (first arrivals: G16–G19, from the first pilot-phase evidence, 2026-06-10).
 
 ## Guiding principle
 

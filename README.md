@@ -29,7 +29,7 @@ This arc is a hypothesis under test, like everything else here. The detailed, st
 
 This is written for a working researcher, so it tries to earn trust the way you would want it earned:
 
-- **Evidence-driven, and honest about the gaps.** Every claim traces to a source or is marked as the maintainer's own observation. The methodology's 15 guidelines are all still `proposed` — hypotheses under test, not validated results — and they say so.
+- **Evidence-driven, and honest about the gaps.** Every claim traces to a source or is marked as the maintainer's own observation. The methodology's 19 guidelines are all still `proposed` — hypotheses under test, not validated results — and they say so.
 - **No selling.** You will not find "revolutionary" or "10x" here. Where something is speculative it is tagged speculative; where the evidence is thin it says so.
 - **It revises in the open.** Guidelines can move to `testing`, `adopted`, or `retired`, and the reasoning stays visible in [`log/`](log/). A methodology that never changes has stopped being honest about a technology that is still moving.
 
@@ -53,7 +53,7 @@ You bring a topic, or a project already underway; the repo gets you and your age
 
 - **[`GOAL.md`](GOAL.md)** — the charter. The why, the how, and the commitments everything else aligns to. Read first.
 - **[foundation/](foundation/)** — the diagnosis: the central argument (with the recombination-vs-innovation distinction in §3), the catalog of 17 AI attributes (5 clusters, each tagged structural / temporary / ambiguous), the implications, and the open questions.
-- **[methodology/](methodology/)** — the prescription: [`guidelines.md`](methodology/guidelines.md) (15 guidelines, all `proposed`, each tied to an attribute, an evidence trail, and a skill implication), a speculative [`ai-native-research-process.md`](methodology/ai-native-research-process.md) (a `v0` sketch of the end-to-end process), and [`agent-operating-guide.md`](methodology/agent-operating-guide.md) — the agent's operating manual, the back-end counterpart to this README.
+- **[methodology/](methodology/)** — the prescription: [`guidelines.md`](methodology/guidelines.md) (19 guidelines, all `proposed`, each tied to an attribute, an evidence trail, and a skill implication), a speculative [`ai-native-research-process.md`](methodology/ai-native-research-process.md) (a `v0` sketch of the end-to-end process), and [`agent-operating-guide.md`](methodology/agent-operating-guide.md) — the agent's operating manual, the back-end counterpart to this README.
 - **[`HANDOFF.md`](HANDOFF.md)** — the tool: the file you give your agent to scaffold a workspace.
 - **[evidence/](evidence/)** — the substrate: interviews, experiments, observations, a self-study stream, a lab survey, and an annotated reading list.
 - **[log/](log/)** — the chronicle: what changed, when, and why.
@@ -76,7 +76,7 @@ You bring a topic, or a project already underway; the repo gets you and your age
 
 ## Status
 
-Foundation v1 as of 2026-05-06: five foundation documents and 15 guidelines (all `proposed`), plus a speculative `v0` synthesis of the end-to-end process ([`methodology/ai-native-research-process.md`](methodology/ai-native-research-process.md)). Evidence collection has begun beyond the reading list — a self-study stream and a lab survey — and the repo is shipping its first researcher-facing tool, [`HANDOFF.md`](HANDOFF.md). The first pilot has been chosen (the maintainer's own).
+Foundation v1 as of 2026-05-06: five foundation documents. The methodology has 19 guidelines (all `proposed`; G16–G19 added 2026-06-10 from the first pilot-phase evidence), plus a speculative `v0` synthesis of the end-to-end process ([`methodology/ai-native-research-process.md`](methodology/ai-native-research-process.md)). Evidence collection has begun beyond the reading list — a self-study stream, a lab survey, and the pilot phase's first entries (an interview on the classical research steps and a pilot-workspace audit, 2026-06-10, which produced guidelines G16–G19). The first researcher-facing tool, [`HANDOFF.md`](HANDOFF.md), has shipped, and the pilot (the maintainer's own research project) is running against it.
 
 ## How the inquiry maintains itself
 
