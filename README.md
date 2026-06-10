@@ -4,7 +4,7 @@ AI changed what it costs to produce research output — and quietly changed what
 
 It is a record of an inquiry, not a finished framework. The diagnosis — what about AI forces research workflows to change — is settled enough to act on. The prescription is grown from evidence over time, and every part of it is marked with how much we actually know.
 
-**If you came here to *do* research, not to read about it:** the usable artifact is the **starter workspace** — a template repo you copy, open with your AI agent, and begin; your agent runs an onboarding conversation and takes it from there. *(The starter is being assembled from this repo now; until it is published, this repo is the reference.)*
+**If you came here to *do* research, not to read about it:** the usable artifact is the **[starter workspace](https://github.com/gur-git/ai-native-research-starter)** — a template repo you copy ("Use this template"), open with your AI agent, and begin; your agent runs an onboarding conversation and takes it from there.
 
 ## The idea, in one minute
 
